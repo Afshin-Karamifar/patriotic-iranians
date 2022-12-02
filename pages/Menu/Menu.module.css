@@ -1,0 +1,18 @@
+.container {
+  font-size: 1.4rem;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 1px;
+  background-color: #20202033;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+}
+
+.report_title {
+  font-size: 1.4rem;
+}
+.report {
+  border-left: 2px solid white;
+  text-indent: 5px;
+  padding: 5px;
+}

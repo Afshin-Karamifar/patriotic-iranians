@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 20px;
+  margin: 1px 0px 0px 0px;
+  text-align: justify;
+  background-color: #20202033;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+}
+
+.quote{
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  margin: 1px 0px 0px 0px;
+  text-align: justify;
+  background-color: #20202033;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+}
+.title {
+  margin: 0px;
+}

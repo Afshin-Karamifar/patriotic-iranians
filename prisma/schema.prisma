@@ -1,0 +1,28 @@
+// Patriotic Iranians DataBase Schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["referentialIntegrity"]
+}
+
+datasource db {
+  provider             = "mongodb"
+  url                  = env("DATABASE_URL")
+  referentialIntegrity = "prisma"
+}
+
+model martyr {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  firstName   String
+  lastName    String
+  gender      String
+  age         Int
+  city        String
+  image       String
+  description String
+}
+
+model view {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  quantity Int
+}

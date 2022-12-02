@@ -1,6 +1,16 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import React, { useState } from "react";
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { MartyrProvider } from "../context/MartyrContext";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <>
+      <MartyrProvider>
+        <Component {...pageProps} />
+      </MartyrProvider>
+    </>
+  );
+};
+
+export default App;

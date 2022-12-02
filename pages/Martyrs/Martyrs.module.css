@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  min-height: 300px;
+  margin: 1px 0px 0px 0px;
+  text-align: justify;
+  background-color: #12121233;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+}
+
+.card {
+  width: 350px;
+  height: 470px;
+  padding: 15px;
+  background-color: #20202099;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.cardImage {
+  width: 320px;
+  height: 280px;
+}
+
+.martyrImage {
+  border-radius: 5px 70px 5px 5px;
+}
+
+.heart {
+  position: absolute;
+  margin-left: 275px;
+  margin-top: -25px;
+}
+
+.no_found{
+  font-size: 1.4rem;
+
+}

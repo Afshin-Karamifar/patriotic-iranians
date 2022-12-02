@@ -1,0 +1,32 @@
+.container {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 20px;
+  margin-top: 1px;
+  background-color: #20202033;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+  animation: shareLink 2s infinite;
+}
+
+.share {
+  animation: shareLink 2s infinite;
+}
+
+@keyframes shareLink {
+  0%{
+    color: white;
+  }
+
+  50%{
+    color: #0070f3;
+  }
+
+  100%{
+    color: white;
+  }
+  
+}
