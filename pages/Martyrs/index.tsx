@@ -3,12 +3,13 @@ import { Martyr } from "../types";
 import Flower from "./Rose_Flower.svg";
 import Dell from "./dell.jpg";
 import styles from "./Martyrs.module.css";
+const _ = require("lodash");
 
 const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
   return (
     <div className={styles.container}>
       {martyrs.length > 0 ? (
-        martyrs.map((martyr: Martyr, index: number) => {
+        _.sortBy(martyrs, "firstName").map((martyr: Martyr, index: number) => {
           return (
             <div className={styles.card} key={index}>
               <div className={styles.cardImage}>
@@ -20,7 +21,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                   className={styles.heart}
                 />
                 <Image
-                  src={Dell}
+                  src={`http://drive.google.com/uc?export=view&id=${martyr.image}`}
                   alt={"Martyr"}
                   width={320}
                   height={280}

@@ -1,7 +1,7 @@
 .container {
   font-size: 1.4rem;
   height: fit-content;
-  padding: 20px;
+  padding: 10px 20px;
   margin-top: 1px;
   background-color: #20202033;
   backdrop-filter: blur(5px);
@@ -10,9 +10,11 @@
 
 .report_title {
   font-size: 1.4rem;
+  font-weight: bold;
 }
 .report {
-  border-left: 2px solid white;
-  text-indent: 5px;
-  padding: 5px;
+  margin-left: 1px;
+  border-left: 1px solid white;
+  text-indent: 3px;
+  padding: 0px 5px;
 }
