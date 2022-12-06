@@ -30,7 +30,7 @@ const Home = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
   useEffect(() => {
     martyrsContext.fillOutMartyrs(martyrs);
     filterMartyrContext.fillOutFilteredMartyrs(martyrs);
-  });
+  }, []);
 
   return (
     <div className={styles.container}>

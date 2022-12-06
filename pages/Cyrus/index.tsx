@@ -1,11 +1,5 @@
-import { Roboto } from "@next/font/google";
 import { useState } from "react";
 import styles from "./Cyrus.module.css";
-
-const roboto = Roboto({
-  weight: ["300"],
-  subsets: ["latin"],
-});
 
 const Cyrus = () => {
   const [showQuote, setShowQuote] = useState(false);
@@ -24,7 +18,7 @@ const Cyrus = () => {
       </div>
       {showQuote && (
         <div className={styles.quote}>
-          <p className={roboto.className}>
+          <p>
             <i className="fa-solid fa-quote-left"></i>&nbsp; I am Cyrus, King of
             the World, The Great King, The Just King, King of Babylon, King of
             Sumer and Akkad, King of the World. Son of Cambyses, the Great King

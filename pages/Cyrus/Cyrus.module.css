@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro&family=Zen+Dots&display=swap');
+
 .container {
   display: flex;
   align-items: center;
@@ -22,6 +24,7 @@
   background-color: #20202033;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
+  font-family: 'Roboto', sans-serif;
 }
 .title {
   margin: 0px;

@@ -6,13 +6,6 @@ const nextConfig = {
     domains: ["drive.google.com", "localhost"],
     formats: ["image/avif", "image/webp"],
   },
-  experimental: {
-    fontLoaders: [
-      { loader: "@next/font/google", options: { subsets: ["latin"] } },
-    ],
-  },
-  // Potential new config flag:
-  disableExperimentalFeaturesWarning: true,
 };
 
 module.exports = nextConfig;
