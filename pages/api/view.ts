@@ -1,7 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import prisma from "./prisma";
-import { View } from "../types";
-
+import { View } from "../../types/types";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<View>) => {
   await prisma.view.updateMany({

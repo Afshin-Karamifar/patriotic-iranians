@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import prisma from "../prisma";
-import { Martyr } from "../../types";
+import { Martyr } from "../../../types/types";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<Martyr[]>) => {
   const { body } = req;

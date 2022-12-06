@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { View } from "../types";
+import { View } from "../../types/types";
 import IranFalg from "./Faravahar.svg";
 import styles from "./Header.module.css";
 

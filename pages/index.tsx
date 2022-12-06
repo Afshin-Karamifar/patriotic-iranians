@@ -3,7 +3,7 @@ import Views from "./Views";
 import Cyrus from "./Cyrus";
 import Head from "next/head";
 import Header from "./Header";
-import { View, Martyr } from "./types";
+import { View, Martyr } from "../types/types";
 import Script from "next/script";
 import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";

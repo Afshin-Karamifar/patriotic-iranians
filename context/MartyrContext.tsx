@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Martyr } from "../pages/types";
+import { Martyr } from "../types/types";
 
 const MartyrsContext = React.createContext<{
   Martyrs: Martyr[];

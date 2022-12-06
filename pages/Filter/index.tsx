@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import styles from "./Filter.module.css";
 import { useFilteredContext } from "../../context/MartyrContext";
-import { Martyr } from "../types";
+import { Martyr } from "../../types/types";
 import Martyrs from "../Martyrs";
 
 const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
@@ -40,8 +40,8 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
           <input
             ref={searchFilter}
             className={styles.search}
-            onChange={() => onChangeHandler('All')}
-            placeholder={'Enter Name or Family of Martyr...'}
+            onChange={() => onChangeHandler("All")}
+            placeholder={"Enter Name or Family of Martyr..."}
           />
           <i className="fa-solid fa-magnifying-glass fa-2xl"></i>
         </div>

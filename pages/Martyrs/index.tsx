@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Martyr } from "../types";
+import { Martyr } from "../../types/types";
 import Flower from "./Rose_flower.svg";
 import styles from "./Martyrs.module.css";
 const _ = require("lodash");
