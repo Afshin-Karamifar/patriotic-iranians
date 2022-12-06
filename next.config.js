@@ -7,11 +7,12 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
   },
   experimental: {
-    concurrentFeatures: true,
     fontLoaders: [
       { loader: "@next/font/google", options: { subsets: ["latin"] } },
     ],
   },
+  // Potential new config flag:
+  disableExperimentalFeaturesWarning: true,
 };
 
 module.exports = nextConfig;
