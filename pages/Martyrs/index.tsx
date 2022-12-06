@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Martyr } from "../types";
-import Flower from "./Rose_Flower.svg";
-import Dell from "./dell.jpg";
+import Flower from "./Rose_flower.svg";
 import styles from "./Martyrs.module.css";
 const _ = require("lodash");
 

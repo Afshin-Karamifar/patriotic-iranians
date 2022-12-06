@@ -4,6 +4,7 @@ import styles from "./Cyrus.module.css";
 
 const roboto = Roboto({
   weight: ["300"],
+  subsets: ["latin"],
 });
 
 const Cyrus = () => {

@@ -7,7 +7,6 @@ import { View, Martyr } from "./types";
 import Script from "next/script";
 import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
-import Martyrs from "./Martyrs";
 import Filter from "./Filter";
 import { useEffect } from "react";
 
@@ -31,7 +30,7 @@ const Home = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
   useEffect(() => {
     martyrsContext.fillOutMartyrs(martyrs);
     filterMartyrContext.fillOutFilteredMartyrs(martyrs);
-  }, []);
+  },[]);
 
   return (
     <div className={styles.container}>
