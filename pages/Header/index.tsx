@@ -8,7 +8,7 @@ const Header = ({ views }: { views: View }) => {
     <div className={styles.container}>
       <div className={styles.view}>
         <i className="fa-solid fa-eye"></i>
-        <p className={styles.quantity}>{views.quantity}</p>
+        <p className={styles.quantity}>{views?.quantity}</p>
       </div>
       <div className={styles.logo}>
         <Image

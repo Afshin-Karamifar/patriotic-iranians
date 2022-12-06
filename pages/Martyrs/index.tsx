@@ -7,7 +7,7 @@ const _ = require("lodash");
 const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
   return (
     <div className={styles.container}>
-      {martyrs.length > 0 ? (
+      {martyrs?.length > 0 ? (
         _.sortBy(martyrs, "firstName").map((martyr: Martyr, index: number) => {
           return (
             <div className={styles.card} key={index}>
