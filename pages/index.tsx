@@ -12,8 +12,8 @@ import { useEffect } from "react";
 
 export async function getServerSideProps() {
   const [viewData, martyrData] = await Promise.all([
-    fetch("http:localhost:3000/api/view"),
-    fetch("http:localhost:3000/api/martyr/search"),
+    fetch("https://patriotic-iranians.vercel.app/api/view"),
+    fetch("https://patriotic-iranians.vercel.app/api/martyr/search"),
   ]);
 
   const views = await viewData.json();
