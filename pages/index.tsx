@@ -30,6 +30,7 @@ const Home = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
   useEffect(() => {
     martyrsContext.fillOutMartyrs(martyrs);
     filterMartyrContext.fillOutFilteredMartyrs(martyrs);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
