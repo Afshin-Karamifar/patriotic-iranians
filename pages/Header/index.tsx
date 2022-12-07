@@ -14,7 +14,7 @@ const Header = ({ views }: { views: View }) => {
         <Image
           alt={"Women-Life-Freedom"}
           src={IranFalg}
-          style={{ width: "250px", height: "130px" }}
+          style={{ width: "300px", height: "150px" }}
           priority
         ></Image>
       </div>

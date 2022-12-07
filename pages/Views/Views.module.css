@@ -1,14 +1,15 @@
 .container {
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 60px;
   padding: 20px;
-  margin-top: 1px;
-  background-color: #20202033;
+  margin-top: 4px;
+  background-color: #f1f2f6;
   backdrop-filter: blur(5px);
+  border-radius: 15px;
   background-blend-mode: overlay;
   animation: shareLink 2s infinite;
 }
@@ -18,16 +19,15 @@
 }
 
 @keyframes shareLink {
-  0%{
-    color: white;
+  0% {
+    color: #30336b;
   }
 
-  50%{
+  50% {
     color: #0070f3;
   }
 
-  100%{
-    color: white;
+  100% {
+    color: #30336b;
   }
-  
 }

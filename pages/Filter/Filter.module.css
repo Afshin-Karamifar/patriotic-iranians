@@ -4,9 +4,10 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 20px;
-  margin: 1px 0px 0px 0px;
+  margin-top: 4px;
   text-align: justify;
-  background-color: #20202033;
+  border-radius: 15px;
+  background-color: #f1f2f6;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
 }
@@ -14,56 +15,71 @@
 .secondContainer {
   display: flex;
   align-items: center;
+  margin-top: 4px;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px;
-  margin: 1px 0px 0px 0px;
+  border-radius: 15px;
   text-align: justify;
-  background-color: #20202033;
+  background-color: #f1f2f6;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
 }
 .inputContainer {
-  background-color: #00000055;
-  width: 340px;
+  color: #2f3640;
+  background-color: #ffffff;
+  width: 320px;
   height: 42px;
   border-radius: 5px;
 }
 .search,
 .search:focus {
   border: none;
-  width: 310px;
+  width: 280px;
   height: 42px;
   font-size: 1.4rem;
-  background-color: #00000000;
+  background-color: #ffffff00;
   border-radius: 5px;
   outline: none;
   text-indent: 10px;
 }
 
 .searchIcon {
-  margin-left: 15px;
+  position: absolute;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .filter {
+  color: #2f3640;
+  width: 80px;
+  padding: 13px 0px;
+  text-align: center;
   font-size: 1.4rem;
-  padding: 6px 15px;
-  border-radius: 5px;
-  margin: 0px 5px;
   transition: 250ms;
-  font-weight: bold;
-  border: 1px solid #383838;
+  font-weight: 550;
+  background-color: #ffffff;
+}
+
+.secondContainer span:first-child {
+    width: 65px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.secondContainer span:last-child {
+  border-radius: 0px 15px 15px 0px;
 }
 
 .filter_selected {
+  color: #ffffff;
+  width: 80px;
+  padding: 13px 0px;
+  text-align: center;
   font-size: 1.4rem;
-  padding: 6px 15px;
-  border-radius: 5px;
-  margin: 0px 5px;
-  font-weight: bold;
   transition: 250ms;
+  font-weight: bold;
   background-color: #0070f3;
-  border: 1px solid #0070f3;
 }
 
 .filter_selected:hover,

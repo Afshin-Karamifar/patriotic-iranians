@@ -43,7 +43,9 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             onChange={() => onChangeHandler("All")}
             placeholder={"Enter Name or Family of Martyr..."}
           />
-          <i className="fa-solid fa-magnifying-glass fa-2xl"></i>
+          <i
+            className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
+          ></i>
         </div>
       </div>
       <div className={styles.secondContainer}>

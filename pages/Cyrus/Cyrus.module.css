@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro&family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro&family=Zen+Dots&display=swap");
 
 .container {
+  color: #2f3640;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 1.4rem;
   padding: 20px;
-  margin: 1px 0px 0px 0px;
+  margin-top: 4px;
   text-align: justify;
-  background-color: #20202033;
+  background-color: #f1f2f6;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
+  border-radius: 15px;
 }
 
-.quote{
+.quote {
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
-  margin: 1px 0px 0px 0px;
   text-align: justify;
-  background-color: #20202033;
+  background-color: #f1f2f6;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
-  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+  margin-top: 4px;
+
+
 }
 .title {
+  font-size: 1.4rem;
   margin: 0px;
-  font-weight: bold;
+  font-weight: 600;
 }

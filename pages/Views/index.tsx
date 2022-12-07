@@ -14,7 +14,7 @@ const Views = () => {
       >
         <div className={styles.container}>
           <p>Be the voice of the Iranian people . . .</p>
-          <i className="fa-solid fa-share fa-lg share"></i>
+          <i className="fa-solid fa-share fa-m share"></i>
         </div>
       </RWebShare>
     </div>

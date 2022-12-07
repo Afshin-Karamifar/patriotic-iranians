@@ -5,28 +5,42 @@
   justify-content: space-evenly;
   padding: 20px;
   min-height: 500px;
-  margin: 1px 0px 0px 0px;
+  margin-top: 4px;
   text-align: justify;
-  background-color: #12121233;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
 .card {
   width: 350px;
-  height: 470px;
-  padding: 15px;
-  background-color: #20202099;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
+  height: 480px;
+  padding: 25px;
+  background-color: #f1f2f6;
   font-size: 1.4rem;
   border-radius: 5px;
   margin-bottom: 20px;
+  color: #2f3640;
 }
 
+.full_name {
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.age,
+.gender,
+.city {
+  font-size: 14px;
+  margin: 15px 3px;
+  text-indent: 10px;
+  border-left: 2px dotted #2f3640;
+  font-weight: 600;
+}
 .cardImage {
-  width: 320px;
+  width: 300px;
   height: 280px;
+box-shadow: rgb(38, 57, 77) 0px 15px 30px -8px;
 }
 
 .martyrImage {
@@ -35,11 +49,10 @@
 
 .heart {
   position: absolute;
-  margin-left: 275px;
-  margin-top: -25px;
+  margin-left: 250px;
+  margin-top: -23px;
 }
 
-.no_found{
+.no_found {
   font-size: 1.4rem;
-
 }

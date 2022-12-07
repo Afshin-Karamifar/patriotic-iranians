@@ -1,20 +1,22 @@
 .container {
   font-size: 1.4rem;
   height: fit-content;
-  padding: 10px 20px;
-  margin-top: 1px;
-  background-color: #20202033;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
+  padding: 10px 10px 10px 20px;
+  margin-top: 4px;
+  background-color: #f1f2f6;
+  color: #2f3640;
+  border-radius: 15px;
 }
 
 .report_title {
+  color: #2f3640;
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: 550;
 }
 .report {
+  color: #2f3640;
   margin-left: 1px;
-  border-left: 1px solid white;
+  border-left: 3px solid #EE5A24;
   text-indent: 3px;
   padding: 0px 5px;
 }

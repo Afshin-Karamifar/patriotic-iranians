@@ -9,7 +9,7 @@ const Cyrus = () => {
         className={styles.container}
         onClick={() => setShowQuote((prevState) => !prevState)}
       >
-        <p className={styles.title}>Cyrus, King of Persia, 2580 ago . . .</p>
+        <p className={styles.title}>Cyrus, King of Persia, 2580 years ago . . .</p>
         <i
           className={`fa-solid ${
             showQuote ? "fa-angle-down" : "fa-angle-left"
