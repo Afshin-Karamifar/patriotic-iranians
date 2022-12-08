@@ -28,9 +28,9 @@
 .inputContainer {
   color: #2f3640;
   background-color: #ffffff;
-  width: 320px;
+  width: 310px;
   height: 42px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .search,
 .search:focus {
@@ -39,7 +39,7 @@
   height: 42px;
   font-size: 1.4rem;
   background-color: #ffffff00;
-  border-radius: 5px;
+  border-radius: 15px;
   outline: none;
   text-indent: 10px;
 }
@@ -79,7 +79,7 @@
   font-size: 1.4rem;
   transition: 250ms;
   font-weight: bold;
-  background-color: #0070f3;
+  background-color: #40407a;
 }
 
 .filter_selected:hover,

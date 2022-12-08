@@ -44,14 +44,10 @@ const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
         <link rel="icon" href="/Faravahar.svg" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
       </Head>
       <Header views={views} />
-      <Views />
       <Cyrus />
+      <Views />
       <Menu />
       <Filter martyrs={martyrsContext.Martyrs} />
       <Script src="https://kit.fontawesome.com/de64505208.js"></Script>

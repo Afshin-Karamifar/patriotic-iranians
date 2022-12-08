@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Martyr } from "../../types/types";
-import Flower from "./Rose_flower.svg";
+import Flower from "./Rose_Heart.svg";
 import styles from "./Martyrs.module.css";
 const _ = require("lodash");
 
@@ -17,24 +17,24 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                 <Image
                   src={Flower}
                   alt={"Martyr"}
-                  width={100}
-                  height={100}
+                  width={200}
+                  height={200}
                   className={styles.heart}
                 />
                 <Image
                   src={`http://drive.google.com/uc?export=view&id=${martyr.image}`}
                   alt={"Martyr"}
                   width={300}
-                  height={280}
+                  height={300}
                   className={styles.martyrImage}
                 />
               </div>
               <p className={styles.full_name}>
-                {martyr.firstName} {martyr.lastName}
+                {martyr.firstName.toUpperCase()} {martyr.lastName.toUpperCase()}
               </p>
-              <p className={styles.age}>Age: {martyr.age}</p>
-              <p className={styles.gender}>Gender: {martyr.gender}</p>
-              <p className={styles.city}>City: {martyr.city}</p>
+              <p className={styles.age}>{martyr.age} years old</p>
+              <p className={styles.gender}>{martyr.gender}</p>
+              <p className={styles.city}>Iran - {martyr.city}</p>
               <i className="fa-solid fa-flower"></i>
             </div>
           );
