@@ -20,7 +20,6 @@
   border-radius: 20px;
   margin-bottom: 20px;
   color: #2f3640;
-
 }
 
 .full_name {
@@ -32,6 +31,7 @@
   text-align: center;
   border-radius: 2px;
   text-shadow: 0px 0px 10px rgb(180, 180, 180);
+  box-shadow: 0px 0px 10px rgb(180, 180, 180);
   background-color: white;
   border-top: 2px solid #2ecc71;
   border-bottom: 2px solid #e74c3c;
@@ -47,17 +47,18 @@
   text-align: center;
   font-weight: 600;
   text-shadow: 0px 0px 10px rgb(180, 180, 180);
-
 }
 .cardImage {
   width: 300px;
   height: 300px;
   border-radius: 70px 15px 15px 15px;
   background-color: #ff060600;
-  box-shadow: rgb(107, 107, 107) 0px 15px 30px -8px;
+  box-shadow: rgb(107, 107, 107) 0px 10px 30px -8px;
 }
 
 .martyrImage {
+  width: 300px;
+  height: 300px;
   border-radius: 70px 15px 15px 15px;
 }
 

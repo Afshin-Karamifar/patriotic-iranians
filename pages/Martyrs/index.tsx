@@ -21,11 +21,9 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                   height={120}
                   className={styles.heart}
                 />
-                <Image
+                <img
                   src={`http://drive.google.com/uc?export=view&id=${martyr.image}`}
                   alt={"Martyr"}
-                  width={300}
-                  height={300}
                   className={styles.martyrImage}
                 />
               </div>
