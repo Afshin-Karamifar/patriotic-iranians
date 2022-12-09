@@ -36,7 +36,7 @@ const Header = ({ views }: { views: View }) => {
       </div>
       <RWebShare
         data={{
-          text: "Be the voice of the Iranian people, \n Please Share it as much as you can! \n",
+          text: "The Islamic Republic of Iran is killing and executing people in Iran. \nBe the voice of the Iranian people. \nPlease share it as much as you can!",
           url: "https://patrioticiranians.info",
           title: "Patriotic Iranians",
         }}

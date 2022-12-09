@@ -17,8 +17,8 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                 <Image
                   src={Flower}
                   alt={"Martyr"}
-                  width={120}
-                  height={120}
+                  width={90}
+                  height={90}
                   className={styles.heart}
                 />
                 <Image

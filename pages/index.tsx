@@ -13,8 +13,8 @@ import "animate.css";
 
 export async function getServerSideProps() {
   const [viewData, martyrData] = await Promise.all([
-    fetch("https://patriotic-iranians.vercel.app/api/view"),
-    fetch("https://patriotic-iranians.vercel.app/api/martyr/search"),
+    fetch(`${process.env.VIEW_API}`),
+    fetch(`${process.env.SEARCH_API}`),
   ]);
 
   const views = await viewData.json();

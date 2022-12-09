@@ -62,7 +62,7 @@
 
 .heart {
   position: absolute;
-  margin-left: -40px;
+  margin-left: -38px;
   margin-top: -20px;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
