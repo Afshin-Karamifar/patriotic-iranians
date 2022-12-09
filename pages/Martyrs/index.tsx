@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Martyr } from "../../types/types";
-import Flower from "./Rose_Heart.svg";
+import Flower from "./Rose_flower.svg";
 import styles from "./Martyrs.module.css";
 const _ = require("lodash");
 
@@ -17,8 +17,8 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                 <Image
                   src={Flower}
                   alt={"Martyr"}
-                  width={200}
-                  height={200}
+                  width={120}
+                  height={120}
                   className={styles.heart}
                 />
                 <Image

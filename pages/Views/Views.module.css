@@ -7,14 +7,56 @@
   justify-content: space-between;
   padding: 15px 20px;
   margin-top: 4px;
-  background-color: #E83A14;
+  background-color: #e83a14;
   border-radius: 15px;
 }
 
-.container p{
+.quote {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  text-align: justify;
+  background-color: #f1f2f6;
+  backdrop-filter: blur(5px);
+  background-blend-mode: overlay;
+  border-radius: 15px;
+  margin-top: 4px;
+}
+
+.container p {
   margin: 0px;
 }
 
+.arrow_Icon_flashing {
+  animation: flashing 2s infinite;
+}
 
+.arrow_Icon_rotating {
+  animation: rotate-icon 500ms forwards;
+}
 
+@keyframes flashing {
+  0% {
+    color: white;
+  }
 
+  50% {
+    color: #e83a14;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+@keyframes rotate-icon {
+  from{
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}

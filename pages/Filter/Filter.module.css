@@ -3,7 +3,7 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 15px 20px 15px 20px;
   margin-top: 4px;
   text-align: justify;
   border-radius: 15px;
@@ -18,7 +18,7 @@
   margin-top: 4px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 15px 20px 15px 20px;
   border-radius: 15px;
   text-align: justify;
   background-color: #f1f2f6;
@@ -30,7 +30,7 @@
   background-color: #ffffff;
   width: 310px;
   height: 42px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .search,
 .search:focus {
@@ -54,27 +54,28 @@
 .filter {
   color: #2f3640;
   width: 80px;
-  padding: 13px 0px;
+  padding: 10px 0px;
   text-align: center;
   font-size: 1.4rem;
   transition: 250ms;
   font-weight: 550;
   background-color: #ffffff;
+  border-right: 2px solid #f1f2f6;
 }
 
 .secondContainer span:first-child {
-    width: 65px;
-  border-radius: 15px 0px 0px 15px;
+  width: 65px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .secondContainer span:last-child {
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .filter_selected {
   color: #ffffff;
   width: 80px;
-  padding: 13px 0px;
+  padding: 10px 0px;
   text-align: center;
   font-size: 1.4rem;
   transition: 250ms;

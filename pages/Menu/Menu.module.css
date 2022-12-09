@@ -1,7 +1,7 @@
 .container {
   font-size: 1.4rem;
   height: fit-content;
-  padding: 10px 10px 10px 20px;
+  padding: 15px 10px 15px 20px;
   margin-top: 4px;
   background-color: #f1f2f6;
   color: #2f3640;
@@ -11,11 +11,22 @@
 .report_title {
   color: #2f3640;
   font-size: 1.4rem;
-  font-weight: 550;
+  font-weight: bold;
+  margin: 2px 0px 10px 0px;
 }
 .report {
   color: #2f3640;
-  margin-left: 1px;
   border-left: 3px solid #0a3d62;
-  padding: 0px 5px;
+  padding: 2px 5px;
+  margin: 5px 0px 2px 0px;
+}
+
+.note {
+  background-color: #fff6edce;
+  margin: 0px 5px 0px 1px;
+  font-size: 1.2rem;
+  border-left: 3px solid #f0932b;
+  text-align: justify;
+  padding: 10px 10px 10px 5px;
+  border-radius: 0px 5px 5px 0px;
 }
