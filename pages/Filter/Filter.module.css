@@ -10,9 +10,11 @@
   background-color: #f1f2f6;
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
+  z-index: 1;
 }
 
 .secondContainer {
+  z-index: -1;
   display: flex;
   align-items: center;
   margin-top: 4px;
@@ -86,4 +88,14 @@
 .filter_selected:hover,
 .filter:hover {
   cursor: pointer;
+}
+
+.auto_fill {
+  position: absolute;
+  width: 310px;
+  height: 150px;
+  position: relative;
+  background-color: red;
+  border-radius: 15px;
+  z-index: 3;
 }

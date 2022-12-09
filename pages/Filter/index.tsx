@@ -46,6 +46,9 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
           <i
             className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
           ></i>
+          {/* <div className={styles.auto_fill}>
+
+          </div> */}
         </div>
       </div>
       <div className={styles.secondContainer}>

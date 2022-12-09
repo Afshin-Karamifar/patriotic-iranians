@@ -14,7 +14,10 @@ const Header = ({ views }: { views: View }) => {
       <div className={styles.view_container_01}>
         <div
           className={styles.qr_icon_container}
-          onClick={() => setShowQRCode((prevState) => !prevState)}
+          onClick={() => {
+            document.body.style.overflow = "hidden";
+            setShowQRCode((prevState) => !prevState);
+          }}
         >
           <i className={`fa-solid fa-qrcode fa-xl ${styles.qr}`}></i>
         </div>
@@ -47,7 +50,10 @@ const Header = ({ views }: { views: View }) => {
       {showQRCode && (
         <div
           className={`animate__animated animate__fadeIn ${styles.qr_code}`}
-          onClick={() => setShowQRCode((prevState) => !prevState)}
+          onClick={() => {
+            document.body.style.overflow = "auto";
+            setShowQRCode((prevState) => !prevState);
+          }}
         >
           <div>
             <Image
