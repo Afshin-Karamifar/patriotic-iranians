@@ -14,11 +14,11 @@ import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
 
 export async function getServerSideProps() {
-  const viewPath = path.join(process.cwd(), "/tmp", "view.json");
+  const viewPath = path.join("tmp", "view.json");
   const views: { quantity: number } = await fs.readJson(viewPath);
   await fs.writeJson(viewPath, { quantity: views.quantity + 1 });
 
-  const martyrsPath = path.join(process.cwd(), "data", "martyrs.json");
+  const martyrsPath = path.join("data", "martyrs.json");
   const martyrs: { quantity: number } = await fs.readJson(martyrsPath);
   // const [viewData, martyrData] = await Promise.all([
   //   fetch(`${process.env.VIEW_API}`),
