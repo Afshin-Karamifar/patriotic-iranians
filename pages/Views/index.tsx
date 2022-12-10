@@ -45,21 +45,22 @@ const Views = () => {
           <br />
           <br />
           They staged a coup against Irans King, Mohammad Reza Pahlavi (someone
-          who was a true patriot) in 1979.Just like the great Cyrus, he also had
-          a plan to bring peace to the area.The King of Iran wanted dignity and
-          respect for his people, and he worked hard to implement the human
-          rights defined by Great Cyrus 2580 years ago.But this was horrible for
-          those countries (the senders of Ruhollah Khomeini) that I mentioned
-          earlier.After that coup, IRI owned everything (money, oil, etc.) in
-          Iran.After that coup, the IRI owned everything (money, oil, etc.) in
-          Iran. in front of peoples eyes and the media IRI plays the role of an
-          Islamic organisation that fights against those countries (the senders
-          of Ruhollah Khomeini) that I mentioned earlier, but IRI followed
-          exactly the plan that those countries (the senders of Ruhollah
-          Khomeini) have for Asian countries. IRI organised and sent many groups
-          of terrorists to most countries in Asia, such as Lebanon, Iraq, Syria,
-          and Yemen. The IRI looted all the wealth of Iran and gave it to all
-          those terrorist groups.
+          who was a true patriot) in 1979. Mohammad Reza Pahlavi Just like the
+          great Cyrus, he also had a plan to bring peace to the area.The King of
+          Iran wanted dignity and respect for his people, and he worked hard to
+          implement the human rights defined by Great Cyrus 2580 years ago.But
+          this was horrible for those countries (the senders of Ruhollah
+          Khomeini) that I mentioned earlier.After that coup, IRI owned
+          everything (money, oil, etc.) in Iran.After that coup, the IRI owned
+          everything (money, oil, etc.) in Iran. in front of peoples eyes and
+          the media IRI plays the role of an Islamic organisation that fights
+          against those countries (the senders of Ruhollah Khomeini) that I
+          mentioned earlier, but IRI followed exactly the plan that those
+          countries (the senders of Ruhollah Khomeini) have for Asian
+          countries. IRI organised and sent many groups of terrorists to most
+          countries in Asia, such as Lebanon, Iraq, Syria, and Yemen. The IRI
+          looted all the wealth of Iran and gave it to all those terrorist
+          groups.
           <br />
           <strong>
             The plan of those countries (the senders of Ruhollah Khomeini) was
