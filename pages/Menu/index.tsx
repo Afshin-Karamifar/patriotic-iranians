@@ -8,7 +8,7 @@ const Menu = () => {
           Iranian Human Rights Organization Report
         </p>
         <p className={styles.report}>
-          The total number of Martyrs: <strong>480</strong>
+          The total number of Martyrs: <strong>482</strong>
         </p>
         <p className={styles.report}>
           The number of Children: <strong>60</strong>
