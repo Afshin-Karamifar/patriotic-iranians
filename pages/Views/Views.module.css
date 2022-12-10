@@ -51,18 +51,47 @@
 }
 
 .terrorist {
+  display: block;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .iranian {
-  color: #009432;
+  display: block;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .what_is {
   color: #e74c3c;
   text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+}
 
+.section_one {
+  padding: 5px;
+  border-left: 2px solid #ff3f34;
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 2px;
+}
+
+.section_four {
+  padding: 5px 5px 5px 5px;
+  border-left: 2px solid #ff3f34;
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: 2px;
+}
+
+.section_second {
+  text-align: left;
+  padding: 5px 5px 5px 0px;
+}
+
+.section_three {
+  padding: 5px 5px 5px 0px;
 }
 
 @keyframes flashing {
