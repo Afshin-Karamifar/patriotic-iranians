@@ -13,10 +13,7 @@
 
 .quote {
   font-size: 1.3rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px 20px;
+  padding: 15px 20px;
   text-align: justify;
   background-color: #f1f2f6;
   backdrop-filter: blur(5px);
@@ -40,6 +37,32 @@
 
 .title {
   color: #ff3f34;
+}
+
+/* What is going on in Iran */
+.is_not {
+  color: #ff3f34;
+}
+.iran {
+  background-color: white;
+  border-top: 2px solid #2ecc71;
+  border-bottom: 2px solid #e74c3c;
+  padding: 0px 10px;
+}
+
+.terrorist {
+  text-transform: uppercase;
+}
+
+.iranian {
+  color: #009432;
+  text-transform: uppercase;
+}
+
+.what_is {
+  color: #e74c3c;
+  text-transform: uppercase;
+
 }
 
 @keyframes flashing {
