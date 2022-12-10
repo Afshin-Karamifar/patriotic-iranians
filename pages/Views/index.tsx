@@ -31,7 +31,7 @@ const Views = () => {
           </p>
           <p className={styles.section_second}>
             <strong className={styles.terrorist}>
-              The Islamic Republic of Iran is a terrorist organization.
+              The Islamic Republic of Iran is a terrorist organization,
             </strong>
             The founder of this organisation is 
             <strong>Ruhollah Khomeini</strong>,
@@ -62,33 +62,31 @@ const Views = () => {
             Iraq, Syria, and Yemen. The IRI looted all the wealth of Iran and
             gave it to all those terrorist groups.
             <br />
-            <strong>
-              The plan of those countries (the senders of Ruhollah Khomeini) was
-              to keep Iran from becoming a great and powerful country (by
-              oppressing and impoverishing Iranians), as well as to scare other
-              Asian countries with IRI.They can then sell their weapons and
-              military equipment to countries that fear IRI. Also, those
-              countries (the senders of Ruhollah Khomeini, founder of IRI) can
-              be shown as good countries in front of the media by acting as
-              human rights defenders and accepting asylum seekers from countries
-              that are at war because of IRIs terrorist groups.
-            </strong>
+            The plan of those countries (the senders of Ruhollah Khomeini) was
+            to keep Iran from becoming a great and powerful country (by
+            oppressing and impoverishing Iranians), as well as to scare other
+            Asian countries with IRI.They can then sell their weapons and
+            military equipment to countries that fear IRI. Also, those countries
+            (the senders of Ruhollah Khomeini, founder of IRI) can be shown as
+            good countries in front of the media by acting as human rights
+            defenders and accepting asylum seekers from countries that are at
+            war because of IRIs terrorist groups.
           </p>
 
           <p className={styles.section_four}>
             <strong className={styles.iranian}>
-              What do the{" "}
-              <strong className={styles.iran}>Iranian people</strong> want?
+              What do the Iranian people want?
             </strong>
-            <strong>
-              kick IRI out of their country, bring peace to Iran and Asian
-              countries, and put into action the human rights defined by Great
-              Cyrus 2580 years ago. not the human rights that big countries are
-              showing in front of the media.
-            </strong>
+            Kick IRI out of their country, bring peace to Iran and Asian
+            countries, and put into action the human rights defined by Great
+            Cyrus 2580 years ago. not the human rights that big countries are
+            showing in front of the media.
           </p>
-          <strong className={styles.what_is}> What is going on in Iran?</strong>
           <p>
+            <strong className={styles.what_is}>
+              {" "}
+              What is going on in Iran?
+            </strong>
             Protests in Iran were sparked by the death of a 22-year-old Kurdish
             woman, Mahsa Amini, known by her Kurdish name, Jina, who was
             arrested and violently beaten by the country’s morality
