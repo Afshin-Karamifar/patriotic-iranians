@@ -14,7 +14,7 @@ import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
 
 export async function getServerSideProps() {
-  const viewPath = path.join(process.cwd(), "data", "view.json");
+  const viewPath = path.join(process.cwd(), "tmp", "view.json");
   const views: { quantity: number } = await fs.readJson(viewPath);
   await fs.writeJson(viewPath, { quantity: views.quantity + 1 });
 
