@@ -28,6 +28,7 @@ export async function getServerSideProps() {
   // const views = await viewData.json();
   // const martyrs = await martyrData.json();
 
+  
   return {
     props: { views: views.quantity + 1, martyrs },
   };
