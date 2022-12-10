@@ -7,7 +7,7 @@ import { RWebShare } from "react-web-share";
 import "animate.css";
 import { useState } from "react";
 
-const Header = ({ views }: { views: View }) => {
+const Header = ({ views }: { views: number }) => {
   const [showQRCode, setShowQRCode] = useState(false);
   return (
     <div className={styles.container}>
@@ -23,7 +23,7 @@ const Header = ({ views }: { views: View }) => {
         </div>
         <div className={styles.view}>
           <i className="fa-solid fa-eye"></i>
-          <p className={styles.quantity}>{views?.quantity}</p>
+          <p className={styles.quantity}>{views}</p>
         </div>
       </div>
       <div className={styles.logo}>

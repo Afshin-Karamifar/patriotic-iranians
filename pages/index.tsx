@@ -2,29 +2,37 @@ import Menu from "./Menu";
 import Views from "./Views";
 import Cyrus from "./Cyrus";
 import Head from "next/head";
+import "animate.css";
+import path from "path";
+import fs from "fs-extra";
+import Filter from "./Filter";
 import Header from "./Header";
-import { View, Martyr } from "../types/types";
 import Script from "next/script";
+import { useEffect } from "react";
+import { Martyr } from "../types/types";
 import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
-import Filter from "./Filter";
-import { useEffect } from "react";
-import "animate.css";
 
 export async function getServerSideProps() {
-  const [viewData, martyrData] = await Promise.all([
-    fetch(`${process.env.VIEW_API}`),
-    fetch(`${process.env.SEARCH_API}`),
-  ]);
+  const viewPath = path.join(process.cwd(), "data", "view.json");
+  const views: { quantity: number } = await fs.readJson(viewPath);
+  await fs.writeJson(viewPath, { quantity: views.quantity + 1 });
 
-  const views = await viewData.json();
-  const martyrs = await martyrData.json();
+  const martyrsPath = path.join(process.cwd(), "data", "martyrs.json");
+  const martyrs: { quantity: number } = await fs.readJson(martyrsPath);
+  // const [viewData, martyrData] = await Promise.all([
+  //   fetch(`${process.env.VIEW_API}`),
+  //   fetch(`${process.env.SEARCH_API}`),
+  // ]);
+
+  // const views = await viewData.json();
+  // const martyrs = await martyrData.json();
 
   return {
-    props: { views, martyrs },
+    props: { views: views.quantity + 1, martyrs },
   };
 }
-const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
+const Document = ({ views, martyrs }: { views: number; martyrs: Martyr[] }) => {
   const martyrsContext = useMartyrContext();
   const filterMartyrContext = useFilteredContext();
 
