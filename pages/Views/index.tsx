@@ -44,7 +44,7 @@ const Views = () => {
           <strong>What this terrorist organisation actually did? </strong>
           <br />
           <br />
-          They staged a coup against Iran's King, Mohammad Reza Pahlavi (someone
+          They staged a coup against Irans King, Mohammad Reza Pahlavi (someone
           who was a true patriot) in 1979.Just like the great Cyrus, he also had
           a plan to bring peace to the area.The King of Iran wanted dignity and
           respect for his people, and he worked hard to implement the human
@@ -52,7 +52,7 @@ const Views = () => {
           those countries (the senders of Ruhollah Khomeini) that I mentioned
           earlier.After that coup, IRI owned everything (money, oil, etc.) in
           Iran.After that coup, the IRI owned everything (money, oil, etc.) in
-          Iran. in front of people's eyes and the media IRI plays the role of an
+          Iran. in front of peoples eyes and the media IRI plays the role of an
           Islamic organisation that fights against those countries (the senders
           of Ruhollah Khomeini) that I mentioned earlier, but IRI followed
           exactly the plan that those countries (the senders of Ruhollah
@@ -70,7 +70,7 @@ const Views = () => {
             (the senders of Ruhollah Khomeini, co-founder of IRI) can be shown
             as good countries in front of the media by acting as human rights
             defenders and accepting asylum seekers from countries that are at
-            war because of IRI's terrorist groups.
+            war because of IRIs terrorist groups.
           </strong>
           <br />
           <br />
