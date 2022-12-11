@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "./Views.module.css";
-import "animate.css";
 
 const Views = () => {
   const [showQuote, setShowQuote] = useState(false);
@@ -20,7 +19,7 @@ const Views = () => {
         ></i>
       </div>
       {showQuote && (
-        <div className={`${styles.quote} animate__animated animate__fadeIn`}>
+        <div className={`${styles.quote}`}>
           <strong>TO BEGIN WITH:</strong>
           <p className={styles.section_one}>
             <strong>

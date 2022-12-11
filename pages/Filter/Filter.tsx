@@ -8,6 +8,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
   const [filter, setFilter] = useState<string>("All");
   const searchFilter = useRef<HTMLInputElement>(null);
   const filterMartyrContext = useFilteredContext();
+  const LIVES = filterMartyrContext.FilteredMartyrs.length;
 
   function onChangeHandler(gender?: string) {
     let filterResult = [...martyrs];
@@ -41,7 +42,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             ref={searchFilter}
             className={styles.search}
             onChange={() => onChangeHandler("All")}
-            placeholder={"Enter Name or Family of Martyr..."}
+            placeholder={"Enter the martyr's full name . . ."}
           />
           <i
             className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
@@ -89,11 +90,13 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
           Children
         </span>
       </div>
-      {filterMartyrContext.FilteredMartyrs.length > 0 && (
+      {LIVES > 0 && (
         <div className={styles.third_container}>
           <p className={styles.just_number}>
             It is not just a number,&nbsp;&nbsp;
-            <strong>{filterMartyrContext.FilteredMartyrs.length} lives</strong>
+            <strong>
+              {LIVES} {LIVES > 1 ? "Lives" : "Live"}
+            </strong>
           </p>
         </div>
       )}
