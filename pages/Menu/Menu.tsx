@@ -8,16 +8,23 @@ const Menu = () => {
           Iranian Human Rights Organization Report
         </p>
         <p className={styles.report}>
-          The total number of Martyrs: <strong>482</strong>
+          The total number of Martyrs:{" "}
+          <strong>{(482).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          The number of Children: <strong>60</strong>
+          The number of Children:{" "}
+          <strong>{(60).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          The number of executed: <strong>01</strong>
+          The number of executed: <strong>{(1).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          The total number of detainees: <strong>18000</strong>
+          The total number of detainees:{" "}
+          <strong>{(18242).toLocaleString("en-IN")}</strong>
+        </p>
+        <p className={styles.report}>
+          The number of detainees that IRI wants to execute:{" "}
+          <strong>{(37).toLocaleString("en-IN")}</strong>
         </p>
       </div>
       <div className={styles.container}>

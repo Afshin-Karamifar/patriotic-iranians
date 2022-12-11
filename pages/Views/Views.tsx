@@ -37,36 +37,32 @@ const Views = () => {
             <br />
             Someone who has been sent by countries that are now known as great,
             powerful, rich countries, and these countries are also known as
-            human rights defenders(such a disgrace)
+            human rights defenders(UK & America)(sender of Mullahs)
           </p>
           <p className={styles.section_three}>
             <strong className={styles.terrorist}>
               What this terrorist organisation actually did?
             </strong>
-            They staged a coup against Irans King, Mohammad Reza Pahlavi
+            They staged a coup against King of Iran, Mohammad Reza Pahlavi
             (someone who was a true patriot) in 1979. Mohammad Reza Pahlavi Just
             like the great Cyrus, he also had a plan to bring peace to the
             area.The King of Iran wanted dignity and respect for his people, and
             he worked hard to implement the human rights defined by Great Cyrus
-            2580 years ago.But this was horrible for those countries (the
-            senders of Ruhollah Khomeini) that I mentioned earlier.After that
-            coup, IRI owned everything (money, oil, etc.) in Iran.After that
-            coup, the IRI owned everything (money, oil, etc.) in Iran. in front
-            of peoples eyes and the media IRI plays the role of an Islamic
-            organisation that fights against those countries (the senders of
-            Ruhollah Khomeini) that I mentioned earlier, but IRI followed
-            exactly the plan that those countries (the senders of Ruhollah
-            Khomeini) have for Asian countries. IRI organised and sent many
-            groups of terrorists to most countries in Asia, such as Lebanon,
-            Iraq, Syria, and Yemen. The IRI looted all the wealth of Iran and
-            gave it to all those terrorist groups.
+            2580 years ago.But this was horrible for sender of Mullahs that I
+            mentioned earlier.After that coup, IRI owned everything (money, oil,
+            etc.) in Iran. In front of peoples eyes and the media IRI plays the
+            role of an Islamic organisation that fights against sender of
+            Mullahs(UK & America), but IRI followed exactly the plan that UK &
+            America have for Asian countries. IRI organised and sent many groups
+            of terrorists to most countries in Asia, such as Lebanon, Iraq,
+            Syria, and Yemen. The IRI looted all the wealth of Iran and gave it
+            to all those terrorist groups.
             <br />
-            The plan of those countries (the senders of Ruhollah Khomeini) was
-            to keep Iran from becoming a great and powerful country (by
+            The plan of the senders of Ruhollah Khomeini, Mullahs(UK & America)
+            was to keep Iran from becoming a great and powerful country (by
             oppressing and impoverishing Iranians), as well as to scare other
             Asian countries with IRI.They can then sell their weapons and
-            military equipment to countries that fear IRI. Also, those countries
-            (the senders of Ruhollah Khomeini, founder of IRI) can be shown as
+            military equipment to countries that fear IRI. UK and America can be shown as
             good countries in front of the media by acting as human rights
             defenders and accepting asylum seekers from countries that are at
             war because of IRIs terrorist groups.
