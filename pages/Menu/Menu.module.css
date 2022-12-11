@@ -15,17 +15,17 @@
   margin: 2px 0px 10px 0px;
 }
 .report {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   min-width: 310px;
   color: #2f3640;
   border-left: 3px solid #0a3d62;
   padding: 2px 4px;
-  margin: 5px 0px 2px 0px;
+  margin: 5px 0px 3px 0px;
 }
 
 .note {
   background-color: #fff6edce;
-  margin: 0px 15px 0px 1px;
+  margin: 0px 10px 0px 1px;
   font-size: 1.2rem;
   border-left: 3px solid #f0932b;
   text-align: justify;
