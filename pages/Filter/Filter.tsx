@@ -6,7 +6,7 @@ import Martyrs from "../Martyrs/Martyrs";
 
 const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
   const [filter, setFilter] = useState<Filters>({
-    mainFilter: "Martyred",
+    mainFilter: "",
     subFilter: "All",
   });
   const searchFilter = useRef<HTMLInputElement>(null);
@@ -26,6 +26,14 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
           martyr.gender.toLowerCase() === _filters.subFilter.toLowerCase()
       );
     }
+
+    if (_filters.mainFilter !== "") {
+      filterResult = filterResult.filter(
+        (martyr: Martyr) =>
+          _filters.mainFilter.toLowerCase() === martyr.state.toLowerCase()
+      );
+    }
+
     setFilter(_filters);
 
     filterMartyrContext.fillOutFilteredMartyrs(
@@ -33,8 +41,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
         (martyr: Martyr) =>
           `${martyr.firstName} ${martyr.lastName}`
             .toLowerCase()
-            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0 &&
-          _filters.mainFilter.toLowerCase() === martyr.state.toLowerCase()
+            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0
       )
     );
   }

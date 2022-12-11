@@ -26,7 +26,7 @@
   width: fit-content;
   padding: 0px 10px;
   margin: 25px auto 10px auto;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
   text-align: center;
   border-radius: 2px;
@@ -42,7 +42,7 @@
 .city,
 .be_my_voice {
   padding: 1px 0px;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin: 7px 0px;
   text-indent: 5px;
   text-align: center;
@@ -73,9 +73,30 @@
   margin-top: -20px;
   filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
+.martyrImage_No_Heart {
+  border-radius: 15px 15px 15px 15px;
+}
 
 .no_found {
   font-size: 1.4rem;
+}
+
+.show_more {
+  width: fit-content;
+  margin: auto;
+  padding: 10px 15px;
+  color: #2f3640;
+  font-size: 1.4rem;
+  background-color: #f1f2f6;
+  border-radius: 50px;
+  transition: 200ms;
+}
+
+.show_more:hover {
+  cursor: pointer;
+  background-color: #05103a;
+  color: #f1f2f6;
+  transition: 200ms;
 }
 
 @keyframes shareLink {
