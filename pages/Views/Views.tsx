@@ -28,15 +28,22 @@ const Views = () => {
               <strong className={styles.iran}>IRAN</strong>
             </strong>
           </p>
+          <p className={styles.section_one}>
+            <strong>
+              The following information is the truth that Iranians believe after
+              spending almost 43 years in the prison of the Islamic Republic of
+              Iran.
+            </strong>
+          </p>
           <p className={styles.section_second}>
             <strong className={styles.terrorist}>
               The Islamic Republic of Iran is a terrorist organization,
             </strong>
             The founder of this organisation was 
-            <strong>Ruhollah Khomeini</strong>,
-            Someone who has been sent by countries that are now known as great,
-            powerful, rich countries, and these countries are also known as
-            human rights defenders(<strong>Sender of Mullahs</strong>)
+            <strong>Ruhollah Khomeini</strong>, Someone who has been sent by
+            countries that are now known as great, powerful, rich countries, and
+            these countries are also known as human rights defenders(
+            <strong>Sender of Mullahs</strong>)
           </p>
           <p className={styles.section_three}>
             <strong className={styles.terrorist}>
