@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Martyr } from "../../types/types";
 import Flower from "./Rose_flower.svg";
-import Rope from "./Rope.png";
 import styles from "./Martyrs.module.css";
 import { useEffect, useState } from "react";
 const _ = require("lodash");
@@ -35,7 +34,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                       />
                     )}
                     <Image
-                      src={`http://drive.google.com/uc?export=view&id=${martyr.image}`}
+                      src={`${martyr.image}`}
                       alt={"Martyr"}
                       width={300}
                       height={300}

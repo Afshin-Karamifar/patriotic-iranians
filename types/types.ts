@@ -4,7 +4,6 @@ type View = {
 };
 
 type Martyr = {
-  id: string;
   firstName: String;
   lastName: String;
   gender: string;
@@ -12,7 +11,6 @@ type Martyr = {
   city: String;
   state: string;
   image: String;
-  description: String;
 };
 
 type Filters = {

@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ["drive.google.com", "localhost"],
+    domains: ["patriotics.s3.eu-west-2.amazonaws.com/", "localhost"],
     formats: ["image/avif", "image/webp"],
   },
 };
