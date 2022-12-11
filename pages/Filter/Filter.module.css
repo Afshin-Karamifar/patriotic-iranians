@@ -27,6 +27,16 @@
   backdrop-filter: blur(5px);
   background-blend-mode: overlay;
 }
+
+.third_container {
+  font-size: 1.4rem;
+  margin-top: 4px;
+  text-align: center;
+  padding: 5px 20px 5px 20px;
+  border-radius: 15px;
+  background-color: #f1f2f6;
+}
+
 .inputContainer {
   color: #2f3640;
   background-color: #ffffff;
