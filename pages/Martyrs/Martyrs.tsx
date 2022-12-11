@@ -36,6 +36,12 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
               <p className={styles.age}>{martyr.age} years old</p>
               <p className={styles.gender}>{martyr.gender}</p>
               <p className={styles.city}>Iran - {martyr.city}</p>
+              {martyr.state === "Execution_List" && (
+                <p className={styles.city}>IRI wants to execute me! </p>
+              )}
+              {martyr.state === "Execution_List" && (
+                <p className={styles.be_my_voice}>Please be my voice... </p>
+              )}
               <i className="fa-solid fa-flower"></i>
             </div>
           );

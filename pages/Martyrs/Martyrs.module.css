@@ -13,8 +13,8 @@
 
 .card {
   width: 350px;
-  height: 480px;
-  padding: 25px;
+  height: fit-content;
+  padding: 25px 25px 0px 25px;
   background-color: #f1f2f6;
   font-size: 1.4rem;
   border-radius: 20px;
@@ -39,7 +39,8 @@
 
 .age,
 .gender,
-.city {
+.city,
+.be_my_voice {
   padding: 1px 0px;
   font-size: 14px;
   margin: 7px 0px;
@@ -48,6 +49,12 @@
   font-weight: 600;
   text-shadow: 0px 0px 10px rgb(180, 180, 180);
 }
+
+.be_my_voice {
+  text-shadow: 0px 0px 10px #ffdbd7;
+  animation: shareLink 2s infinite;
+}
+
 .cardImage {
   width: 300px;
   height: 300px;
@@ -71,8 +78,22 @@
   font-size: 1.4rem;
 }
 
+@keyframes shareLink {
+  0% {
+    color: #f1f2f6;
+  }
+
+  50% {
+    color: #e74c3c;
+  }
+
+  100% {
+    color: #f1f2f6;
+  }
+}
+
 @media (max-width: 375px) {
-  .card{
+  .card {
     scale: 0.8;
     margin: 0px;
   }
