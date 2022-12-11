@@ -36,7 +36,7 @@
   border-radius: 15px;
 }
 
-.just_number{
+.just_number {
   margin: 5px 0px;
 }
 
@@ -78,7 +78,7 @@
   border-right: 2px solid #f1f2f6;
 }
 
-.secondContainer_filter{
+.secondContainer_filter {
   display: flex;
   align-items: center;
   margin-top: 4px;
@@ -158,4 +158,29 @@
   background-color: red;
   border-radius: 15px;
   z-index: 3;
+}
+
+@media (max-width: 375px) {
+  .inputContainer {
+    scale: 0.9;
+  }
+
+  .searchIcon {
+    margin-left: -20px;
+  }
+
+  .search{
+    font-size: 1.1rem;
+  }
+  .main_filter_selected,
+  .main_filter, .filter, .filter_selected {
+    width: 58px;
+    font-size: 1.1rem;
+  }
+
+  .secondContainer_filter span:last-child {
+    width: 120px;
+    font-size: 1.1rem;
+    border-radius: 0px 10px 10px 0px;
+  }
 }

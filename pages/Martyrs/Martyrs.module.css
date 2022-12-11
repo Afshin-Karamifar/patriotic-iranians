@@ -70,3 +70,10 @@
 .no_found {
   font-size: 1.4rem;
 }
+
+@media (max-width: 375px) {
+  .card{
+    scale: 0.8;
+    margin: 0px;
+  }
+}
