@@ -9,18 +9,22 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           The total number of Martyrs:{" "}
-          <strong>{(482).toLocaleString("en-IN")}</strong>
+          <strong>{(475).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           The number of Children:{" "}
-          <strong>{(60).toLocaleString("en-IN")}</strong>
+          <strong>{(65).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           The number of executed: <strong>{(1).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          The total number of detainees:{" "}
+          The number of detainees:{" "}
           <strong>{(18242).toLocaleString("en-IN")}</strong>
+        </p>
+        <p className={styles.report}>
+          The number of detainees students:{" "}
+          <strong>{(595).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           The number of detainees that IRI wants to execute:{" "}

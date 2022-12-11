@@ -34,7 +34,6 @@ const Views = () => {
             </strong>
             The founder of this organisation was 
             <strong>Ruhollah Khomeini</strong>,
-            <br />
             Someone who has been sent by countries that are now known as great,
             powerful, rich countries, and these countries are also known as
             human rights defenders(<strong>Sender of Mullahs</strong>)
