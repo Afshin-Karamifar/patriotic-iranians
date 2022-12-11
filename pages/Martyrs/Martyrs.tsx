@@ -36,6 +36,12 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
               <p className={styles.age}>{martyr.age} years old</p>
               <p className={styles.gender}>{martyr.gender}</p>
               <p className={styles.city}>Iran - {martyr.city}</p>
+              {martyr.state === "Martyred" && (
+                <p className={styles.city}>Murdered by IRI Morality Police! </p>
+              )}
+              {martyr.state === "Executed" && (
+                <p className={styles.city}>Executed by IRIs Goverment!</p>
+              )}
               {martyr.state === "Execution_List" && (
                 <p className={styles.city}>IRI wants to execute me! </p>
               )}
