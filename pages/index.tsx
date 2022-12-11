@@ -16,19 +16,26 @@ import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
 
 export async function getServerSideProps() {
   const martyrsPath = path.join("data", "martyrs.json");
-  let martyrs: Martyr[] = [];
-  let views: View = {
-    id: "",
-    quantity: 0,
-  };
+  let martyrs: Martyr[];
+  let views: View;
 
   try {
-    martyrs = await fs.readJson(martyrsPath);
     views = await fetch(`${process.env.VIEW_API}`).then((response) =>
       response.json()
     );
   } catch (error) {
     console.log(error);
+    views = {
+      id: "",
+      quantity: -1,
+    };
+  }
+
+  try {
+    martyrs = await fs.readJson(martyrsPath);
+  } catch (error) {
+    console.log(error);
+    martyrs = [];
   }
 
   return {
@@ -39,7 +46,9 @@ const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
   const martyrsContext = useMartyrContext();
   const filterMartyrContext = useFilteredContext();
 
+  if (views.quantity === -1) <Error statusCode={503} />;
   if (martyrs.length === 0) <Error statusCode={503} />;
+
 
   useEffect(() => {
     martyrsContext.fillOutMartyrs(martyrs);
