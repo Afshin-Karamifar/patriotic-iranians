@@ -62,7 +62,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                     <p className={styles.city}>Executed by IRIs Goverment!</p>
                   )}
                   {martyr.state === "Execution_List" && (
-                    <p className={styles.city}>IRI wants to execute me! </p>
+                    <p className={styles.city}>IRI Goverment wants to execute me! </p>
                   )}
                   {martyr.state === "Execution_List" && (
                     <p className={styles.be_my_voice}>Please be my voice... </p>
