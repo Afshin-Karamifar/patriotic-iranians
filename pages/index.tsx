@@ -15,7 +15,7 @@ import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
 
 export async function getServerSideProps() {
-  const martyrsPath = path.join("data", "martyrs.json");
+  const martyrsPath = path.join(process.cwd(), "data", "martyrs.json");
   let martyrs: Martyr[];
   let views: View;
 
@@ -48,7 +48,6 @@ const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
 
   if (views.quantity === -1) <Error statusCode={503} />;
   if (martyrs.length === 0) <Error statusCode={503} />;
-
 
   useEffect(() => {
     martyrsContext.fillOutMartyrs(martyrs);
