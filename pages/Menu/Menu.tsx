@@ -34,7 +34,7 @@ const Menu = () => {
           the martyrs data.&nbsp;&nbsp;
           <br />
           <a href="mailto:iran@patrioticiranians.info">
-            <span className={styles.contact_me}>Contact me </span>
+            <span className={styles.contact_me}>Contact us </span>
           </a>
         </p>
       </div>
