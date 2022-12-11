@@ -73,9 +73,8 @@ const Views = () => {
               What do the Iranian people want?
             </strong>
             Kick IRI out of their country, bring peace to Iran and Asian
-            countries, and put into action the human rights defined by Great
-            Cyrus 2580 years ago. not the human rights that big countries are
-            showing in front of the media.
+            countries, and put into action the real human rights defined by Great
+            Cyrus.
           </p>
           <p>
             <strong className={styles.what_is}>
