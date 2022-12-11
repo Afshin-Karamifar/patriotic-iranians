@@ -32,7 +32,7 @@ const Views = () => {
             <strong className={styles.terrorist}>
               The Islamic Republic of Iran is a terrorist organization,
             </strong>
-            The founder of this organisation is 
+            The founder of this organisation was 
             <strong>Ruhollah Khomeini</strong>,
             <br />
             Someone who has been sent by countries that are now known as great,
