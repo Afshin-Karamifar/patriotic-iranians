@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Martyr } from "../../types/types";
 import Flower from "./Rose_flower.svg";
+import Rope from "./Rope.png";
 import styles from "./Martyrs.module.css";
 const _ = require("lodash");
 
@@ -15,7 +16,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                 className={`${styles.cardImage} animate__animated animate__fadeIn`}
               >
                 <Image
-                  src={Flower}
+                  src={martyr.state === "Execution_List" ? Rope : Flower}
                   alt={"Martyr"}
                   width={90}
                   height={90}
