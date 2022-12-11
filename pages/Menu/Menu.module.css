@@ -30,3 +30,29 @@
   padding: 10px 10px 10px 5px;
   border-radius: 0px 5px 5px 0px;
 }
+
+.contact_me {
+  animation: shareLink 2s infinite;
+}
+
+@keyframes shareLink {
+  0% {
+    color: #b7e7ff;
+  }
+
+  25% {
+    color: #00a8ff;
+  }
+
+  50% {
+    color: #00a8ff;
+  }
+
+  75% {
+    color: #00a8ff;
+  }
+
+  100% {
+    color: #b7e7ff;
+  }
+}

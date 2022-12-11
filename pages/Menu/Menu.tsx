@@ -31,7 +31,10 @@ const Menu = () => {
         <p className={styles.note}>
           The actual number of martyrs is higher, as it includes children and
           executed martyrs. We just started and are working so hard to upload
-          the martyrs data.
+          the martyrs data.&nbsp;&nbsp;
+          <a href="mailto:iran@patrioticiranians.info">
+            <span className={styles.contact_me}>Contact me </span>
+          </a>
         </p>
       </div>
     </div>

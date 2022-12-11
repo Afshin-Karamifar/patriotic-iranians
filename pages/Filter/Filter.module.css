@@ -144,7 +144,6 @@
   background-color: #40407a;
 }
 
-.filter_selected:hover,
 .filter:hover,
 .main_filter:hover {
   cursor: pointer;
