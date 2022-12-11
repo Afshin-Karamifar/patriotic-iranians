@@ -75,15 +75,15 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
           <p className={styles.no_found}>Nothing Found...!</p>
         )}
       </div>
-      {martyrs.length > 0 && martyrs.length > cardQuantity && (
+      {martyrs?.length > 0 && martyrs?.length > cardQuantity && (
         <p
           className={styles.show_more}
           onClick={() => setCardQuantity((prevState) => prevState + 10)}
         >
           Show{" "}
-          {martyrs.length - cardQuantity >= 10
+          {martyrs?.length - cardQuantity >= 10
             ? "10"
-            : martyrs.length - cardQuantity}{" "}
+            : martyrs?.length - cardQuantity}{" "}
           more
         </p>
       )}
