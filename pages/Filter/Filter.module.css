@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   margin-top: 4px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding: 15px 20px 15px 20px;
   border-radius: 15px;
@@ -86,7 +86,7 @@
   display: flex;
   align-items: center;
   margin-top: 4px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   padding: 15px 20px 15px 20px;
   border-radius: 15px;
@@ -99,7 +99,7 @@
 .main_filter {
   color: #2f3640;
   width: 80px;
-  padding: 10px 7px;
+  padding: 10px 0px;
   text-align: center;
   font-size: 1.4rem;
   transition: 250ms;
@@ -140,7 +140,7 @@
 .main_filter_selected {
   color: #ffffff;
   width: 80px;
-  padding: 10px 7px;
+  padding: 10px 0px;
   text-align: center;
   font-size: 1.4rem;
   transition: 250ms;
