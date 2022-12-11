@@ -41,6 +41,19 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
 
   return (
     <div>
+      <div className={styles.firstContainer}>
+        <div className={styles.inputContainer}>
+          <input
+            ref={searchFilter}
+            className={styles.search}
+            onChange={() => onChangeHandler(filter)}
+            placeholder={"Enter the martyr's full name . . ."}
+          />
+          <i
+            className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
+          ></i>
+        </div>
+      </div>
       <div className={styles.secondContainer_filter}>
         <span
           className={
@@ -78,19 +91,6 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
         >
           In list to be Execution
         </span>
-      </div>
-      <div className={styles.firstContainer}>
-        <div className={styles.inputContainer}>
-          <input
-            ref={searchFilter}
-            className={styles.search}
-            onChange={() => onChangeHandler(filter)}
-            placeholder={"Enter the martyr's full name . . ."}
-          />
-          <i
-            className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
-          ></i>
-        </div>
       </div>
       <div className={styles.secondContainer}>
         <span
