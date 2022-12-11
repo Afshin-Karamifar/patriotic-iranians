@@ -90,7 +90,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
         </span>
       </div>
       <div className={styles.third_container}>
-        <p>
+        <p className={styles.just_number}>
           It is not just a number,&nbsp;&nbsp;
           <strong>{filterMartyrContext.FilteredMartyrs.length} lives</strong>
         </p>

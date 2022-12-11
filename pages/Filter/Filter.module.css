@@ -32,9 +32,12 @@
   font-size: 1.4rem;
   margin-top: 4px;
   text-align: center;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px 0px 20px;
   border-radius: 15px;
-  background-color: #f1f2f6;
+}
+
+.just_number{
+  margin: 5px 0px;
 }
 
 .inputContainer {
