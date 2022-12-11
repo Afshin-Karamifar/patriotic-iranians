@@ -23,16 +23,16 @@ const Views = () => {
           <strong>TO BEGIN WITH:</strong>
           <p className={styles.section_one}>
             <strong>
-              THE ISLAMIC REPUBLIC OF IRAN{" "}
-              <strong className={styles.is_not}>IS NOT</strong>{" "}
-              <strong className={styles.iran}>IRAN</strong>
+              The following information is the truth that Iranians believe after
+              spending almost 43 years in the prison of the Islamic Republic of
+              Iran.
             </strong>
           </p>
           <p className={styles.section_one}>
             <strong>
-              The following information is the truth that Iranians believe after
-              spending almost 43 years in the prison of the Islamic Republic of
-              Iran.
+              THE ISLAMIC REPUBLIC OF IRAN{" "}
+              <strong className={styles.is_not}>IS NOT</strong>{" "}
+              <strong className={styles.iran}>IRAN</strong>
             </strong>
           </p>
           <p className={styles.section_second}>
