@@ -5,6 +5,7 @@
     "lastName": "Shakarami",
     "gender": "Female",
     "age": 17,
+    "state": "Martyred",
     "city": "Karaj",
     "image": "1GUpm2DHZKdXtndis_1Ge7cueO4axzLMn",
     "description": "Patriotic Iranian!"
@@ -15,6 +16,7 @@
     "lastName": "Amini",
     "gender": "Female",
     "age": 20,
+    "state": "Executed",
     "city": "Saghez",
     "image": "1qVwTaxGGsqMhwkG6Rc_ibu8vjsJw9hhn",
     "description": "Patriotic Iranian!"
@@ -25,6 +27,7 @@
     "lastName": "Esmailzadeh",
     "gender": "Female",
     "age": 17,
+    "state": "Execution_List",
     "city": "Karaj",
     "image": "1PFHnrnzYa5a5AbmLSWBiAUiEPbBKorBi",
     "description": "Patriotic Iranian!"
@@ -35,6 +38,7 @@
     "lastName": "Najafi",
     "gender": "Female",
     "age": 19,
+    "state": "Martyred",
     "city": "Karaj",
     "image": "1hWxQziOsuy419QU6BVJS9AvAmbsP_4tF",
     "description": "Patriotic Iranian!"
@@ -45,6 +49,7 @@
     "lastName": "Majidi",
     "gender": "Female",
     "age": 60,
+    "state": "Martyred",
     "city": "Kermanshah",
     "image": "1f8O0TUBPDr_w_z25q6pMZOxTPGIkzuMq",
     "description": "Patriotic Iranian!"
@@ -55,6 +60,7 @@
     "lastName": "Rohi",
     "gender": "Male",
     "age": 17,
+    "state": "Martyred",
     "city": "Tehran",
     "image": "1tNxs8hadv91uM78RRuQlY21XIFQA-HiE",
     "description": "Patriotic Iranian!"
@@ -65,6 +71,7 @@
     "lastName": "Daroftadeh",
     "gender": "Male",
     "age": 17,
+    "state": "Martyred",
     "city": "Kurdestan",
     "image": "1_769mDzlSOiReJIfOnI5DWe3pCDQrwea",
     "description": "Patriotic Iranian!"

@@ -10,8 +10,13 @@ type Martyr = {
   gender: string;
   age: number;
   city: String;
+  state: string;
   image: String;
   description: String;
 };
 
-export type { View, Martyr };
+type Filters = {
+  mainFilter: String;
+  subFilter: String;
+};
+export type { View, Martyr, Filters};

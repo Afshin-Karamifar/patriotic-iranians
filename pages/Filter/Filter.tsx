@@ -1,90 +1,138 @@
 import { useRef, useState } from "react";
 import styles from "./Filter.module.css";
 import { useFilteredContext } from "../../context/MartyrContext";
-import { Martyr } from "../../types/types";
+import { Martyr, Filters } from "../../types/types";
 import Martyrs from "../Martyrs/Martyrs";
 
 const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
-  const [filter, setFilter] = useState<string>("All");
+  const [filter, setFilter] = useState<Filters>({
+    mainFilter: "Martyred",
+    subFilter: "All",
+  });
   const searchFilter = useRef<HTMLInputElement>(null);
   const filterMartyrContext = useFilteredContext();
   const LIVES = filterMartyrContext.FilteredMartyrs.length;
 
-  function onChangeHandler(gender?: string) {
+  function onChangeHandler(_filters: Filters) {
     let filterResult = [...martyrs];
 
-    if (gender && gender === "Children") {
+    if (_filters.subFilter === "Children") {
       filterResult = filterResult.filter((martyr: Martyr) => martyr.age < 20);
     }
 
-    if (gender && gender !== "Children" && gender !== "All") {
+    if (_filters.subFilter !== "Children" && _filters.subFilter !== "All") {
       filterResult = filterResult.filter(
-        (martyr: Martyr) => martyr.gender.toLowerCase() === gender.toLowerCase()
+        (martyr: Martyr) =>
+          martyr.gender.toLowerCase() === _filters.subFilter.toLowerCase()
       );
     }
-    if (gender) setFilter(gender);
+    setFilter(_filters);
 
     filterMartyrContext.fillOutFilteredMartyrs(
       filterResult.filter(
         (martyr: Martyr) =>
           `${martyr.firstName} ${martyr.lastName}`
             .toLowerCase()
-            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0
+            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0 &&
+          _filters.mainFilter.toLowerCase() === martyr.state.toLowerCase()
       )
     );
   }
 
   return (
     <div>
+      <div className={styles.secondContainer_filter}>
+        <span
+          className={
+            filter.mainFilter === "Martyred"
+              ? styles.main_filter_selected
+              : styles.main_filter
+          }
+          onClick={() => {
+            onChangeHandler({ ...filter, ...{ mainFilter: "Martyred" } });
+          }}
+        >
+          Martyred
+        </span>
+        <span
+          className={
+            filter.mainFilter === "Executed"
+              ? styles.main_filter_selected
+              : styles.main_filter
+          }
+          onClick={() => {
+            onChangeHandler({ ...filter, ...{ mainFilter: "Executed" } });
+          }}
+        >
+          Executed
+        </span>
+        <span
+          className={
+            filter.mainFilter === "Execution_List"
+              ? styles.main_filter_selected
+              : styles.main_filter
+          }
+          onClick={() => {
+            onChangeHandler({ ...filter, ...{ mainFilter: "Execution_List" } });
+          }}
+        >
+          In list to be Execution
+        </span>
+      </div>
       <div className={styles.firstContainer}>
         <div className={styles.inputContainer}>
           <input
             ref={searchFilter}
             className={styles.search}
-            onChange={() => onChangeHandler("All")}
+            onChange={() => onChangeHandler(filter)}
             placeholder={"Enter the martyr's full name . . ."}
           />
           <i
             className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
           ></i>
-          {/* <div className={styles.auto_fill}>
-
-          </div> */}
         </div>
       </div>
       <div className={styles.secondContainer}>
         <span
-          className={filter === "All" ? styles.filter_selected : styles.filter}
+          className={
+            filter.subFilter === "All" ? styles.filter_selected : styles.filter
+          }
           onClick={() => {
-            onChangeHandler("All");
+            onChangeHandler({ ...filter, ...{ subFilter: "All" } });
           }}
         >
           All
         </span>
         <span
           className={
-            filter === "Female" ? styles.filter_selected : styles.filter
+            filter.subFilter === "Female"
+              ? styles.filter_selected
+              : styles.filter
           }
           onClick={() => {
-            onChangeHandler("Female");
+            onChangeHandler({ ...filter, ...{ subFilter: "Female" } });
           }}
         >
           Women
         </span>
         <span
-          className={filter === "Male" ? styles.filter_selected : styles.filter}
+          className={
+            filter.subFilter === "Male" ? styles.filter_selected : styles.filter
+          }
           onClick={() => {
-            onChangeHandler("Male");
+            onChangeHandler({ ...filter, ...{ subFilter: "Male" } });
           }}
         >
           Men
         </span>
         <span
           className={
-            filter === "Children" ? styles.filter_selected : styles.filter
+            filter.subFilter === "Children"
+              ? styles.filter_selected
+              : styles.filter
           }
           onClick={() => {
-            onChangeHandler("Children");
+            onChangeHandler({ ...filter, ...{ subFilter: "Children" } });
           }}
         >
           Children
