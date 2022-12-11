@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import styles from "./Filter.module.css";
 import { useFilteredContext } from "../../context/MartyrContext";
 import { Martyr } from "../../types/types";
-import Martyrs from "../Martyrs";
+import Martyrs from "../Martyrs/Martyrs";
 
 const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
   const [filter, setFilter] = useState<string>("All");
