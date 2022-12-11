@@ -37,35 +37,35 @@ const Views = () => {
             <br />
             Someone who has been sent by countries that are now known as great,
             powerful, rich countries, and these countries are also known as
-            human rights defenders(UK & America)(sender of Mullahs)
+            human rights defenders(<strong>Sender of Mullahs</strong>)
           </p>
           <p className={styles.section_three}>
             <strong className={styles.terrorist}>
               What this terrorist organisation actually did?
             </strong>
-            They staged a coup against King of Iran, Mohammad Reza Pahlavi
-            (someone who was a true patriot) in 1979. Mohammad Reza Pahlavi Just
-            like the great Cyrus, he also had a plan to bring peace to the
-            area.The King of Iran wanted dignity and respect for his people, and
-            he worked hard to implement the human rights defined by Great Cyrus
-            2580 years ago.But this was horrible for sender of Mullahs that I
-            mentioned earlier.After that coup, IRI owned everything (money, oil,
-            etc.) in Iran. In front of peoples eyes and the media IRI plays the
-            role of an Islamic organisation that fights against sender of
-            Mullahs(UK & America), but IRI followed exactly the plan that UK &
-            America have for Asian countries. IRI organised and sent many groups
-            of terrorists to most countries in Asia, such as Lebanon, Iraq,
-            Syria, and Yemen. The IRI looted all the wealth of Iran and gave it
-            to all those terrorist groups.
+            They staged a coup against the King of Iran, Mohammad Reza Pahlavi.
+            (someone who was a true patriot) in 1979. They staged a coup against
+            the King of Iran, Mohammad Reza Pahlavi. (someone who was a true
+            patriot) in 1979. Mohammad Reza Pahlavi Just like the great Cyrus,
+            he also had a plan to bring peace to the area.The King of Iran
+            wanted dignity and respect for his people, and He worked hard to put
+            into action the human rights defined by Great Cyrus. But this was a
+            disaster for the <strong>Sender of Mullahs</strong>. After that
+            coup, the IRI owned everything (money, oil, etc.) in Iran. In front
+            of peoples eyes and the media, IRI plays the role of an Islamic
+            organization. However, IRI acted according to the plan that the{" "}
+            <strong>Sender of Mullahs</strong> had for Asian countries. IRI
+            organised and sent many groups of terrorists to countries in Asia,
+            such as Lebanon, Iraq, Syria, and Yemen. The IRI looted all the
+            wealth of Iran and gave it to all those terrorist groups.
             <br />
-            The plan of the senders of Ruhollah Khomeini, Mullahs(UK & America)
-            was to keep Iran from becoming a great and powerful country (by
-            oppressing and impoverishing Iranians), as well as to scare other
-            Asian countries with IRI.They can then sell their weapons and
-            military equipment to countries that fear IRI. UK and America can be shown as
-            good countries in front of the media by acting as human rights
-            defenders and accepting asylum seekers from countries that are at
-            war because of IRIs terrorist groups.
+            The plan was to keep Iran from becoming a great and powerful country
+            by oppressing and impoverishing Iranians, as well as to intimidate
+            other Asian countries with IRI. They can then sell their weapons and
+            military equipment to countries that fear IRI. They can also be
+            shown as good countries in front of the media by acting as humans
+            rights defenders and accepting asylum seekers from countries that
+            are at war because of IRI terrorist groups.
           </p>
 
           <p className={styles.section_four}>
@@ -73,29 +73,31 @@ const Views = () => {
               What do the Iranian people want?
             </strong>
             Kick IRI out of their country, bring peace to Iran and Asian
-            countries, and put into action the real human rights defined by Great
-            Cyrus.
+            countries, and put into action the real human rights defined by
+            Great Cyrus.
           </p>
           <p>
             <strong className={styles.what_is}>
               {" "}
               What is going on in Iran?
             </strong>
-            Protests in Iran were sparked by the death of a 22-year-old Kurdish
-            woman, Mahsa Amini, known by her Kurdish name, Jina, who was
-            arrested and violently beaten by the country’s morality
-            police. Amini died on September 16, resulting in
-            national outrage and mobilising a women-led movement that has
-            garnered international support. Protesters are calling for the end
-            of oppressive laws and the dissolution of the country’s Islamic
-            government. Currently, Iranians of all ages, ethnicities, and
-            genders have joined in the demonstrations, but it is mainly the
+            After almost 43 years of IRI presence in Iran, the Iranian people
+            are really tired of the IRI. They lost everything: freedom, money,
+            their history, and also their lives. latest Protests in Iran were
+            sparked by the death of a 22-year-old Kurdish woman, Mahsa Amini,
+            known by her Kurdish name, Jina, who was arrested and violently
+            beaten by the country’s morality police. Amini died on September 16,
+            resulting in national outrage and mobilising a women-led movement
+            that has garnered international support. Protesters are calling for
+            the end of oppressive laws and the dissolution of the country’s
+            Islamic government. Currently, Iranians of all ages, ethnicities,
+            and genders have joined in the demonstrations, but it is mainly the
             younger generations that have taken to the streets. Women and men
             are shoulder-to-shoulder. All of Iran is united, and for the first
             time in the history of Iran since the Islamic Revolution, there is
             this unique unity between the ethnicities. Everyone is chanting the
-            same slogan. Their demand is the same. According to Human Rights
-            Activists in Iran (HRA), more than 475 people have been killed by
+            same slogan. Their demand is the same. According to human rights
+            Activists in Iran (HRA): more than 475 people have been killed by
             security forces while participating in anti-government protests,
             and over 18,000 have been detained by authorities.
           </p>
