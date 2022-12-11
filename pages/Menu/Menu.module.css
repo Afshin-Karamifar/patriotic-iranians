@@ -32,6 +32,8 @@
 }
 
 .contact_me {
+  display: block;
+  margin-top: 5px;
   animation: shareLink 2s infinite;
 }
 

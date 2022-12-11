@@ -47,7 +47,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             ref={searchFilter}
             className={styles.search}
             onChange={() => onChangeHandler(filter)}
-            placeholder={"Enter the martyr's full name . . ."}
+            placeholder={"Enter name or surname . . ."}
           />
           <i
             className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
