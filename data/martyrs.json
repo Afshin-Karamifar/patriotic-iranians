@@ -359,5 +359,23 @@
     "state": "Martyred",
     "city": "Kermanshah",
     "image": "Amir_Hossein_Basati.png"
+  },
+  {
+    "firstName": "Karvan",
+    "lastName": "Ghader Shokri",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Piranshahr",
+    "image": "Karvan_Ghader_Shokri.png"
+  },
+  {
+    "firstName": "Omid",
+    "lastName": "Sarani",
+    "gender": "Male",
+    "age": 13,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Omid_Sarani.png"
   }
 ]
