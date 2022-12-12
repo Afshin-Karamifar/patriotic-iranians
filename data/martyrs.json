@@ -132,7 +132,7 @@
     "gender": "Male",
     "age": 30,
     "state": "Execution_List",
-    "city": "ChaharMahalo  Bakhtiyari",
+    "city": "Chaharmahal and Bakhtiari",
     "image": "Toomaj_Salehi.jpeg"
   },
   {
@@ -143,5 +143,149 @@
     "state": "Martyred",
     "city": "Marivan",
     "image": "komar_daroftadeh.jfif"
+  },
+  {
+    "firstName": "Mohammad Amin",
+    "lastName": "Akhlaghi",
+    "gender": "Male",
+    "age": 20,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Mohammad_Amin_Akhlaghi.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Hosaeini",
+    "gender": "Male",
+    "age": 30,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Mohammad_Hosaeini.png"
+  },
+  {
+    "firstName": "Shayan",
+    "lastName": "Charani",
+    "gender": "Male",
+    "age": 24,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Shayan_Charani.png"
+  },
+  {
+    "firstName": "Mehdi",
+    "lastName": "Mohammadi",
+    "gender": "Male",
+    "age": 47,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "Arian",
+    "lastName": "Farzam Nia",
+    "gender": "Male",
+    "age": 17,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Arian_Farzamnia.png"
+  },
+  {
+    "firstName": "Amir Mehdi",
+    "lastName": "Jafari",
+    "gender": "Male",
+    "age": 17,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Amir_Mehdi_Jafari.png"
+  },
+  {
+    "firstName": "Amin Mehdi",
+    "lastName": "Shokrollahi",
+    "gender": "Male",
+    "age": 17,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Amin_Mehdi_Shokrollahi.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Rakhshani Azad",
+    "gender": "Male",
+    "age": 16,
+    "state": "Execution_List",
+    "city": "Sistan and Baluchestan",
+    "image": "Mohammad_Rakhshani_Azad.png"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Rakhshani Azad",
+    "gender": "Male",
+    "age": 16,
+    "state": "Execution_List",
+    "city": "Sistan and Baluchestan",
+    "image": "Ali_Rakhshani_Azad.png"
+  },
+  {
+    "firstName": "Saied",
+    "lastName": "Yaghobi",
+    "gender": "Male",
+    "age": 39,
+    "state": "Execution_List",
+    "city": "Esfahan",
+    "image": "Saied_Yaghobi.png"
+  },
+  {
+    "firstName": "Saleh",
+    "lastName": "Mir Hashemi",
+    "gender": "Male",
+    "age": 37,
+    "state": "Execution_List",
+    "city": "Esfahan",
+    "image": "Saleh_Mir_Hashemi.png"
+  },
+  {
+    "firstName": "Amir",
+    "lastName": "Naser Azadani",
+    "gender": "Male",
+    "age": 26,
+    "state": "Execution_List",
+    "city": "Esfahan",
+    "image": "Amir_Naser_Azadani.png"
+  },
+  {
+    "firstName": "Mansour",
+    "lastName": "Deh Mordeh",
+    "gender": "Male",
+    "age": 22,
+    "state": "Execution_List",
+    "city": "Zahedan",
+    "image": "Mansour_Deh_Mordeh.png"
+  },
+  {
+    "firstName": "Mohsen",
+    "lastName": "Hashem Zehi",
+    "gender": "Male",
+    "age": 24,
+    "state": "Execution_List",
+    "city": "Zahedan",
+    "image": "Mohsen_HashemZehi.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Ghobadlou",
+    "gender": "Male",
+    "age": 22,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Mohammad_Ghobadlou.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Broghani",
+    "gender": "Male",
+    "age": 18,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Mohammad_Broghani.png"
   }
 ]
