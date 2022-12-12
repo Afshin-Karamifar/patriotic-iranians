@@ -25,7 +25,7 @@ const Menu = () => {
           Number of Children: <strong>{(65).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of executed: <strong>{(1).toLocaleString("en-IN")}</strong>
+          Number of executed: <strong>{(2).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Protests: <strong>{(1175).toLocaleString("en-IN")}</strong>
@@ -44,7 +44,7 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
-          <strong>{(37).toLocaleString("en-IN")}</strong>
+          <strong>{(36).toLocaleString("en-IN")}</strong>
         </p>
       </div>
     </div>
