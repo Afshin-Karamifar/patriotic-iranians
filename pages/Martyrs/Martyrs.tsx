@@ -17,7 +17,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
       <div className={styles.container}>
         {martyrs?.length > 0 ? (
           _.sortBy(martyrs, "firstName")
-            .slice(0, cardQuantity - 1)
+            .slice(0, cardQuantity)
             .map((martyr: Martyr, index: number) => {
               return (
                 <div className={styles.card} key={index}>
@@ -83,7 +83,13 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
       {martyrs?.length > 0 && martyrs?.length > cardQuantity && (
         <p
           className={styles.show_more}
-          onClick={() => setCardQuantity((prevState) => prevState + 10)}
+          onClick={() =>
+            setCardQuantity((prevState) =>
+              martyrs?.length - prevState >= 10
+                ? prevState + 10
+                : martyrs?.length
+            )
+          }
         >
           Show{" "}
           {martyrs?.length - cardQuantity >= 10
