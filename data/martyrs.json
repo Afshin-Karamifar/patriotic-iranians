@@ -80,5 +80,23 @@
     "state": "Execution_List",
     "city": "Karaj",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MohammadMehdi_Karami.png"
+  },
+  {
+    "firstName": "Parham",
+    "lastName": "Parvari",
+    "gender": "Male",
+    "age": 26,
+    "state": "Execution_List",
+    "city": "Saghez",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Parham_Parvari.png"
+  },
+  {
+    "firstName": "Reza",
+    "lastName": "Arya",
+    "gender": "Male",
+    "age": 43,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Reza_Arya.png"
   }
 ]
