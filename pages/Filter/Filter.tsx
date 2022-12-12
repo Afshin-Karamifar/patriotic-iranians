@@ -17,7 +17,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
     let filterResult = [...martyrs];
 
     if (_filters.subFilter === "Children") {
-      filterResult = filterResult.filter((martyr: Martyr) => martyr.age < 20);
+      filterResult = filterResult.filter((martyr: Martyr) => martyr.age <= 18);
     }
 
     if (_filters.subFilter !== "Children" && _filters.subFilter !== "All") {

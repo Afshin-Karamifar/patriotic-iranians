@@ -42,6 +42,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                       alt={"Martyr"}
                       width={300}
                       height={300}
+                      priority
                       className={
                         martyr.state !== "Execution_List"
                           ? styles.martyrImage
