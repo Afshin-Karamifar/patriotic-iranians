@@ -98,5 +98,41 @@
     "state": "Execution_List",
     "city": "Tehran",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Reza_Arya.png"
+  },
+  {
+    "firstName": "Reza",
+    "lastName": "Shaker Zevardehi",
+    "gender": "Male",
+    "age": 19,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Reza_Shaker_Zevardehi.png"
+  },
+  {
+    "firstName": "Sahan",
+    "lastName": "Noor Mohammad Zadeh",
+    "gender": "Male",
+    "age": 26,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Sahan_Noor+Mohammadzadeh.png"
+  },
+  {
+    "firstName": "Saman",
+    "lastName": "Sayedi",
+    "gender": "Male",
+    "age": 24,
+    "state": "Execution_List",
+    "city": "Kermanshah",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Saman_Sayedi.png"
+  },
+  {
+    "firstName": "Toomaj",
+    "lastName": "Salehi",
+    "gender": "Male",
+    "age": 30,
+    "state": "Execution_List",
+    "city": "ChaharMahalo  Bakhtiyari",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Toomaj_Salehi.jpeg"
   }
 ]
