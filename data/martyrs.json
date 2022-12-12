@@ -287,5 +287,77 @@
     "state": "Execution_List",
     "city": "Tehran",
     "image": "Mohammad_Broghani.png"
+  },
+  {
+    "firstName": "Mohsen",
+    "lastName": "Rezazadeh",
+    "gender": "Male",
+    "age": 28,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "AbolFazl",
+    "lastName": "Mehri Hosaieni",
+    "gender": "Male",
+    "age": 25,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "ُSaied",
+    "lastName": "Shirazi",
+    "gender": "Male",
+    "age": 25,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "Manouchehr",
+    "lastName": "Mehman Navaz",
+    "gender": "Male",
+    "age": 25,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "Milad",
+    "lastName": "Armoun",
+    "gender": "Male",
+    "age": 20,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "Milad_Armoun.png"
+  },
+  {
+    "firstName": "Hasti",
+    "lastName": "Naroei",
+    "gender": "Female",
+    "age": 6,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Hasti_Naroei.png"
+  },
+  {
+    "firstName": "Amir Mehdi",
+    "lastName": "Farrokhipour",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Tehran",
+    "image": "Amir_Mehdi_Farrokhipour.png"
+  },
+  {
+    "firstName": "Amir Mehdi",
+    "lastName": "Farrokhipour",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Tehran",
+    "image": "Amir_Mehdi_Farrokhipour.png"
   }
 ]
