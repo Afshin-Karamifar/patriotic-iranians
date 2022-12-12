@@ -62,5 +62,23 @@
     "state": "Execution_List",
     "city": "Karaj",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Hamid_Gharehasanloo.png"
+  },
+  {
+    "firstName": "Mahan",
+    "lastName": "Sedarat Madani",
+    "gender": "Male",
+    "age": 20,
+    "state": "Execution_List",
+    "city": "Tehran",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Mahan_SadratMadani.png"
+  },
+  {
+    "firstName": "Mohammad Mehdi",
+    "lastName": "Karami",
+    "gender": "Male",
+    "age": 22,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MohammadMehdi_Karami.png"
   }
 ]

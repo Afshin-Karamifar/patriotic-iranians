@@ -22,7 +22,11 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
               return (
                 <div className={styles.card} key={index}>
                   <div
-                    className={`${styles.cardImage} animate__animated animate__fadeIn`}
+                    className={`${
+                      martyr.state === "Execution_List"
+                        ? styles.cardImage_rec
+                        : styles.cardImage
+                    }`}
                   >
                     {martyr.state !== "Execution_List" && (
                       <Image
@@ -61,7 +65,9 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                     <p className={styles.city}>Executed by IRIs Goverment!</p>
                   )}
                   {martyr.state === "Execution_List" && (
-                    <p className={styles.city}>IRI Goverment wants to execute me! </p>
+                    <p className={styles.city}>
+                      IRI Goverment wants to execute me!{" "}
+                    </p>
                   )}
                   {martyr.state === "Execution_List" && (
                     <p className={styles.be_my_voice}>Please be my voice... </p>
