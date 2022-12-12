@@ -53,5 +53,14 @@
     "state": "Execution_List",
     "city": "Karaj",
     "image": "https://s3.console.aws.amazon.com/s3/object/patriotics?region=eu-west-2&prefix=Execution_List/Behrad_Ali_Kenari.png#:~:text=https%3A//patriotics.s3.eu%2Dwest%2D2.amazonaws.com/Execution_List/Behrad_Ali_Kenari.png"
+  },
+  {
+    "firstName": "Hamid",
+    "lastName": "Gharehasanloo",
+    "gender": "Male",
+    "age": 53,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Hamid_Gharehasanloo.png"
   }
 ]
