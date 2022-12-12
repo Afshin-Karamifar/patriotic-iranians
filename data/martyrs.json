@@ -377,5 +377,41 @@
     "state": "Martyred",
     "city": "Zahedan",
     "image": "Omid_Sarani.png"
+  },
+  {
+    "firstName": "Kian",
+    "lastName": "Pirfalak",
+    "gender": "Male",
+    "age": 9,
+    "state": "Martyred",
+    "city": "Izeh",
+    "image": "Kian_Pirfalak.png"
+  },
+  {
+    "firstName": "Zakaria",
+    "lastName": "Khial",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Piranshahr",
+    "image": "Zakaria_Khial.png"
+  },
+  {
+    "firstName": "Sepehr",
+    "lastName": "Maghsoudi",
+    "gender": "Male",
+    "age": 14,
+    "state": "Martyred",
+    "city": "Izeh",
+    "image": "Sepehr_Maghsodi.png"
+  },
+  {
+    "firstName": "Setareh",
+    "lastName": "Tajik",
+    "gender": "Female",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Teharn",
+    "image": "Setareh_Tajik.png"
   }
 ]
