@@ -38,7 +38,7 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
                       />
                     )}
                     <Image
-                      src={`${martyr.image}`}
+                      src={`${process.env.NEXT_PUBLIC_S3_URL}${martyr.image}`}
                       alt={"Martyr"}
                       width={300}
                       height={300}

@@ -7,7 +7,7 @@
     "age": 17,
     "state": "Martyred",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Nika_Shakarami.png"
+    "image": "nika_shakarami.png"
   },
   {
     "firstName": "Mohsen",
@@ -16,7 +16,7 @@
     "age": 23,
     "state": "Executed",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Mohsen_Shekari.png"
+    "image": "Mohsen_Shekari.png"
   },
   {
     "firstName": "Akbar",
@@ -25,7 +25,7 @@
     "age": 38,
     "state": "Execution_List",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Akbar_Ghafari.png"
+    "image": "Akbar_Ghafari.png"
   },
   {
     "firstName": "Majid Reza",
@@ -34,7 +34,7 @@
     "age": 23,
     "state": "Executed",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MajidReza_Rahnavard.png"
+    "image": "MajidReza_Rahnavard.png"
   },
   {
     "firstName": "Ali",
@@ -43,7 +43,7 @@
     "age": 20,
     "state": "Execution_List",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Ali_Moazemi_Goudarzi.png"
+    "image": "Ali_Moazemi_Goudarzi.png"
   },
   {
     "firstName": "Behrad",
@@ -52,7 +52,7 @@
     "age": 27,
     "state": "Execution_List",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Behrad_Ali_Kenari.png"
+    "image": "Behrad_Ali_Kenari.png"
   },
   {
     "firstName": "Hamid",
@@ -61,7 +61,7 @@
     "age": 53,
     "state": "Execution_List",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Hamid_Gharehasanloo.png"
+    "image": "Hamid_Gharehasanloo.png"
   },
   {
     "firstName": "Mahan",
@@ -70,7 +70,7 @@
     "age": 20,
     "state": "Execution_List",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Mahan_SadratMadani.png"
+    "image": "Mahan_SadratMadani.png"
   },
   {
     "firstName": "Mohammad Mehdi",
@@ -79,7 +79,7 @@
     "age": 22,
     "state": "Execution_List",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MohammadMehdi_Karami.png"
+    "image": "MohammadMehdi_Karami.png"
   },
   {
     "firstName": "Parham",
@@ -88,7 +88,7 @@
     "age": 26,
     "state": "Execution_List",
     "city": "Saghez",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Parham_Parvari.png"
+    "image": "Parham_Parvari.png"
   },
   {
     "firstName": "Reza",
@@ -97,7 +97,7 @@
     "age": 43,
     "state": "Execution_List",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Reza_Arya.png"
+    "image": "Reza_Arya.png"
   },
   {
     "firstName": "Reza",
@@ -106,7 +106,7 @@
     "age": 19,
     "state": "Execution_List",
     "city": "Karaj",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Reza_Shaker_Zevardehi.png"
+    "image": "Reza_Shaker_Zevardehi.png"
   },
   {
     "firstName": "Sahan",
@@ -115,7 +115,7 @@
     "age": 26,
     "state": "Execution_List",
     "city": "Tehran",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Sahan_Noor+Mohammadzadeh.png"
+    "image": "Sahan_Noor+Mohammadzadeh.png"
   },
   {
     "firstName": "Saman",
@@ -124,7 +124,7 @@
     "age": 24,
     "state": "Execution_List",
     "city": "Kermanshah",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Saman_Sayedi.png"
+    "image": "Saman_Sayedi.png"
   },
   {
     "firstName": "Toomaj",
@@ -133,7 +133,7 @@
     "age": 30,
     "state": "Execution_List",
     "city": "ChaharMahalo  Bakhtiyari",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Toomaj_Salehi.jpeg"
+    "image": "Toomaj_Salehi.jpeg"
   },
   {
     "firstName": "Komar",
@@ -142,6 +142,6 @@
     "age": 16,
     "state": "Martyred",
     "city": "Marivan",
-    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Martyrs/komar_daroftadeh.jfif"
+    "image": "komar_daroftadeh.jfif"
   }
 ]
