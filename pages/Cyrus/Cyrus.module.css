@@ -5,16 +5,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 1.4rem;
   padding: 15px 20px;
   margin-top: 4px;
   text-align: justify;
   background-color: #f1f2f6;
   border-radius: 15px;
+  font-size: 1.3rem;
+
 }
 
 .quote {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,7 +29,7 @@
 }
 
 .title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin: 0px;
   font-weight: 600;
 }

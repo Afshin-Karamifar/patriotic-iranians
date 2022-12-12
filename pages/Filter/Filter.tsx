@@ -72,7 +72,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             onChangeHandler({ ...filter, ...{ mainFilter: "Martyred" } });
           }}
         >
-          Martyred
+          Murdered
         </span>
         <span
           className={

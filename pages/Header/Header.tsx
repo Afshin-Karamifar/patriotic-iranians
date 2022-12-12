@@ -22,7 +22,7 @@ const Header = ({ views }: { views: View }) => {
           <i className={`fa-solid fa-qrcode fa-xl ${styles.qr}`}></i>
         </div>
         <div className={styles.view}>
-          <i className="fa-solid fa-eye"></i>
+          <i className={`fa-solid fa-eye ${styles.eye}`}></i>
           <p className={styles.quantity}>{views?.quantity}</p>
         </div>
       </div>
