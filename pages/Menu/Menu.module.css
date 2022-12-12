@@ -9,13 +9,13 @@
 
 .report_title {
   width: fit-content;
-  color: #2f3640;
+  color: #05103a;
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
   margin: 2px 0px 10px 0px;
   padding-bottom: 5px;
-  border-bottom: 1.5px dashed #0a3d62;
+  border-bottom: 1.5px dashed #05103a;
 }
 .report {
   font-size: 1.3rem;
