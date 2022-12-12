@@ -35,5 +35,14 @@
     "state": "Executed",
     "city": "Tehran",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MajidReza_Rahnavard.png"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Moazemi goudarzi",
+    "gender": "Male",
+    "age": 20,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Ali_Moazemi_Goudarzi.png"
   }
 ]
