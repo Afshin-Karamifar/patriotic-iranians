@@ -134,5 +134,14 @@
     "state": "Execution_List",
     "city": "ChaharMahalo  Bakhtiyari",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Toomaj_Salehi.jpeg"
+  },
+  {
+    "firstName": "Komar",
+    "lastName": "Daroftadeh",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Marivan",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Martyrs/komar_daroftadeh.jfif"
   }
 ]
