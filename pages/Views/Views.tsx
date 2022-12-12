@@ -22,7 +22,7 @@ const Views = () => {
         <div className={`${styles.quote}`}>
           <strong>TO BEGIN WITH:</strong>
           <p className={styles.section_one}>
-            <strong>
+            <strong className={styles.wants_title}>
               The following information is the truth that Iranians believe after
               spending almost 43 years in the prison of the Islamic Republic of
               Iran.

@@ -26,5 +26,14 @@
     "state": "Execution_List",
     "city": "Tehran",
     "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/Akbar_Ghafari.png"
+  },
+  {
+    "firstName": "Majid Reza",
+    "lastName": "Rahnavard",
+    "gender": "Male",
+    "age": 23,
+    "state": "Executed",
+    "city": "Tehran",
+    "image": "https://patriotics.s3.eu-west-2.amazonaws.com/Execution_List/MajidReza_Rahnavard.png"
   }
 ]

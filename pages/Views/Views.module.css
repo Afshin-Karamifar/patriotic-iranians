@@ -39,6 +39,10 @@
   color: #ff3f34;
 }
 
+.wants_title {
+  text-transform: uppercase;
+}
+
 /* What is going on in Iran */
 .is_not {
   color: #ff3f34;
