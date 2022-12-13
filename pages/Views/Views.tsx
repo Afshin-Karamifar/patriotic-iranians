@@ -11,11 +11,10 @@ const Views = () => {
       >
         <p className={styles.title}>See what is going on in iran . . .</p>
         <i
-          className={`fa-solid ${
-            showQuote
+          className={`fa-solid ${showQuote
               ? `fa-angle-down ${styles.arrow_Icon_rotating}`
               : `fa-angle-down ${styles.arrow_Icon_flashing}`
-          } fa-lg`}
+            } fa-lg`}
         ></i>
       </div>
       {showQuote && (
@@ -39,7 +38,7 @@ const Views = () => {
             <strong className={styles.terrorist}>
               The Islamic Republic of Iran is a terrorist organization,
             </strong>
-            The founder of this organisation was 
+            The founder of this organisation was
             <strong>Ruhollah Khomeini</strong>, Someone who has been sent by
             countries that are now known as great, powerful, rich countries, and
             these countries are also known as human rights defenders(
@@ -49,8 +48,7 @@ const Views = () => {
             <strong className={styles.terrorist}>
               What this terrorist organisation actually did?
             </strong>
-            They staged a coup against the King of Iran, Mohammad Reza Pahlavi.
-            (someone who was a true patriot) in 1979. They staged a coup against
+            They staged a coup against
             the King of Iran, Mohammad Reza Pahlavi. (someone who was a true
             patriot) in 1979. Mohammad Reza Pahlavi Just like the great Cyrus,
             he also had a plan to bring peace to the area.The King of Iran
