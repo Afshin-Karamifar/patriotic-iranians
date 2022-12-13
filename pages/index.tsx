@@ -9,10 +9,11 @@ import fs from "fs-extra";
 import Filter from "./Filter/Filter";
 import Header from "./Header/Header";
 import Script from "next/script";
-import { useEffect } from "react";
+import { useCallback, useEffect, useRef } from "react";
 import { View, Martyr } from "../types/types";
 import styles from "../styles/Home.module.css";
 import { useFilteredContext, useMartyrContext } from "../context/MartyrContext";
+import { animateScroll as scroll } from 'react-scroll'
 
 export async function getServerSideProps() {
   const martyrsPath = path.join(process.cwd(), "data", "martyrs.json");
@@ -42,7 +43,9 @@ export async function getServerSideProps() {
     props: { views, martyrs },
   };
 }
+
 const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
+  const myRef = useRef<HTMLDivElement | null>(null);
   const martyrsContext = useMartyrContext();
   const filterMartyrContext = useFilteredContext();
 
@@ -54,6 +57,22 @@ const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
     filterMartyrContext.fillOutFilteredMartyrs(martyrs);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const onScroll = useCallback(() => {
+    const { scrollY } = window;
+    if (scrollY > 800) { myRef.current!.style.display = 'block' } else {
+      myRef.current!.style.display = 'none'
+    }
+  }, []);
+
+  useEffect(() => {
+    //add eventlistener to window
+    window.addEventListener("scroll", onScroll, { passive: true });
+    // remove event on unmount to prevent a memory leak with the cleanup
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    }
+  }, [onScroll]);
 
   return (
     <div className={`${styles.container} animate__animated animate__fadeIn`}>
@@ -76,8 +95,11 @@ const Document = ({ views, martyrs }: { views: View; martyrs: Martyr[] }) => {
       <Views />
       <Menu />
       <Filter martyrs={martyrsContext.Martyrs} />
+      <div className={`${styles.top_arrow} animate__animated animate__fadeIn`} onClick={() => scroll.scrollToTop()} ref={myRef}>
+        <i className="fa-solid fa-arrow-up"></i>
+      </div>
       <Script src="https://kit.fontawesome.com/de64505208.js"></Script>
-    </div>
+    </div >
   );
 };
 
