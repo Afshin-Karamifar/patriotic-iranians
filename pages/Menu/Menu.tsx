@@ -34,7 +34,7 @@ const Menu = () => {
           Number of Cities Involved: <strong>{(161).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Universities Involved: <strong>{(161).toLocaleString("en-IN")}</strong>
+          Number of Universities Involved: <strong>{(144).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
