@@ -440,5 +440,23 @@
     "state": "Martyred",
     "city": "Karaj",
     "image": "Sarina_EsmailZadeh.png"
+  },
+  {
+    "firstName": "Hadis",
+    "lastName": "Najafi",
+    "gender": "Female",
+    "age": 26,
+    "state": "Martyred",
+    "city": "Karaj",
+    "image": "Hadis_Najafi.png"
+  },
+  {
+    "firstName": "Hamid Reza",
+    "lastName": "Rouhi",
+    "gender": "Male",
+    "age": 20,
+    "state": "Martyred",
+    "city": "Teharn",
+    "image": "Hamid_Reza_Rouhi.png"
   }
 ]
