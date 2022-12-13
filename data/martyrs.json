@@ -458,5 +458,41 @@
     "state": "Martyred",
     "city": "Teharn",
     "image": "Hamid_Reza_Rouhi.png"
+  },
+  {
+    "firstName": "Mino",
+    "lastName": "Majidi",
+    "gender": "Female",
+    "age": 62,
+    "state": "Martyred",
+    "city": "Kermanshah",
+    "image": "Mino_Majidi.png"
+  },
+  {
+    "firstName": "Mona",
+    "lastName": "Naghib",
+    "gender": "Female",
+    "age": 8,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Mona_Naghib.png"
+  },
+  {
+    "firstName": "Sodeys",
+    "lastName": "Keshani",
+    "gender": "Male",
+    "age": 14,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Sodeys_Keshani.png"
+  },
+  {
+    "firstName": "Adel",
+    "lastName": "Kochakzay (Bariehi)",
+    "gender": "Male",
+    "age": 14,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Adel_Kochakzy.png"
   }
 ]
