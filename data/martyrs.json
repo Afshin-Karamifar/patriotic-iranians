@@ -413,5 +413,32 @@
     "state": "Martyred",
     "city": "Teharn",
     "image": "Setareh_Tajik.png"
+  },
+  {
+    "firstName": "Hossein",
+    "lastName": "Mohammadi",
+    "gender": "Male",
+    "age": 26,
+    "state": "Execution_List",
+    "city": "Karaj",
+    "image": "Hossein_Mohammadi.png"
+  },
+  {
+    "firstName": "Mahsa(Zhina)",
+    "lastName": "Amini",
+    "gender": "Female",
+    "age": 22,
+    "state": "Martyred",
+    "city": "Saghez",
+    "image": "Mahsa_Amini.png"
+  },
+  {
+    "firstName": "Sarina",
+    "lastName": "Esamil Zadeh",
+    "gender": "Female",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Karaj",
+    "image": "Sarina_EsmailZadeh.png"
   }
 ]
