@@ -8,8 +8,6 @@
   text-align: justify;
   border-radius: 15px;
   background-color: #f1f2f6;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
 }
 
 .secondContainer {
@@ -22,8 +20,6 @@
   border-radius: 15px;
   text-align: justify;
   background-color: #f1f2f6;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
 }
 
 .third_container {
@@ -91,8 +87,6 @@
   border-radius: 15px;
   text-align: justify;
   background-color: #f1f2f6;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
 }
 
 .main_filter {

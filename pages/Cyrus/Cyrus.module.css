@@ -22,8 +22,6 @@
   padding: 5px 20px;
   text-align: justify;
   background-color: #f1f2f6;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
   border-radius: 15px;
   margin-top: 4px;
 }

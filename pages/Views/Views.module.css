@@ -16,8 +16,6 @@
   padding: 15px 20px;
   text-align: justify;
   background-color: #f1f2f6;
-  backdrop-filter: blur(5px);
-  background-blend-mode: overlay;
   border-radius: 15px;
   margin-top: 4px;
 }
@@ -98,15 +96,21 @@
 
 @keyframes flashing {
   0% {
-    color: #ff3f34;
-  }
-
-  50% {
     color: #f1f2f6;
   }
 
+  25% {
+    color: #e74c3c;
+  }
+  50% {
+    color: #e74c3c;
+  }
+  75% {
+    color: #e74c3c;
+  }
+
   100% {
-    color: #ff3f34;
+    color: #f1f2f6;
   }
 }
 

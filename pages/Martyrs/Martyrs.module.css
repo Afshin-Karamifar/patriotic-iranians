@@ -111,7 +111,13 @@
     color: #f1f2f6;
   }
 
+  25% {
+    color: #e74c3c;
+  }
   50% {
+    color: #e74c3c;
+  }
+  75% {
     color: #e74c3c;
   }
 
