@@ -494,5 +494,14 @@
     "state": "Martyred",
     "city": "Zahedan",
     "image": "Adel_Kochakzy.png"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Mozaffari Salanghoeh",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Ghouehan",
+    "image": "Ali_Mozaffari.png"
   }
 ]
