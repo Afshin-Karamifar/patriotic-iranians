@@ -3,6 +3,7 @@ import { Martyr } from "../../types/types";
 import Flower from "./Rose_flower.svg";
 import styles from "./Martyrs.module.css";
 import { useEffect, useState } from "react";
+import { animateScroll as scroll } from 'react-scroll'
 const _ = require("lodash");
 
 const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
@@ -22,11 +23,10 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
               return (
                 <div className={styles.card} key={index}>
                   <div
-                    className={`${
-                      martyr.state === "Execution_List"
+                    className={`${martyr.state === "Execution_List"
                         ? styles.cardImage_rec
                         : styles.cardImage
-                    }`}
+                      }`}
                   >
                     {martyr.state !== "Execution_List" && (
                       <Image
@@ -84,12 +84,14 @@ const Martyrs = ({ martyrs }: { martyrs: Martyr[] }) => {
       {martyrs?.length > 0 && martyrs?.length > cardQuantity && (
         <p
           className={styles.show_more}
-          onClick={() =>
+          onClick={() => {
             setCardQuantity((prevState) =>
               martyrs?.length - prevState >= 10
                 ? prevState + 10
                 : martyrs?.length
             )
+            scroll.scrollMore(500)
+          }
           }
         >
           Show{" "}
