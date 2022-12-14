@@ -11,10 +11,11 @@ const Views = () => {
       >
         <p className={styles.title}>See what is going on in iran . . .</p>
         <i
-          className={`fa-solid ${showQuote
-            ? `fa-angle-down ${styles.arrow_Icon_rotating}`
-            : `fa-angle-down ${styles.arrow_Icon_flashing}`
-            } fa-lg`}
+          className={`fa-solid ${
+            showQuote
+              ? `fa-angle-down ${styles.arrow_Icon_rotating}`
+              : `fa-angle-down ${styles.arrow_Icon_flashing}`
+          } fa-lg`}
         ></i>
       </div>
       {showQuote && (
@@ -22,7 +23,9 @@ const Views = () => {
           <strong>TO BEGIN WITH:</strong>
           <p className={styles.section_one}>
             <strong className={styles.wants_title}>
-              THE FOLLOWING INFORMATION IS WHAT IRANIAN PEOPLE BELIEVE AFTER SPENDING ALMOST 43 YEARS LIVING IN THE PRISON-LIKE COUNTRY OF THE ISLAMIC REPUBLIC OF IRAN.
+              THE FOLLOWING INFORMATION IS WHAT IRANIAN PEOPLE BELIEVE AFTER
+              SPENDING ALMOST 43 YEARS LIVING IN THE PRISON-LIKE COUNTRY OF THE
+              ISLAMIC REPUBLIC OF IRAN.
             </strong>
           </p>
           <p className={styles.section_one}>
@@ -34,20 +37,32 @@ const Views = () => {
           </p>
           <p className={styles.section_second}>
             <strong className={styles.terrorist}>
-              INSTEAD, THEY ARE A TERRORIST ORGANIZATION THAT ARE GOVERNING THE COUNTRY OF IRAN FOR EVIL PURPOSES.
+              INSTEAD, THEY ARE A TERRORIST ORGANIZATION THAT ARE GOVERNING THE
+              COUNTRY OF IRAN FOR EVIL PURPOSES.
             </strong>
-            This organisation was founded by <strong>Ruhollah Khomeini</strong>, someone who was sent by countries that are known as great, powerful, rich, and known as human rights defenders.
+            This organisation was founded by <strong>Ruhollah Khomeini</strong>,
+            someone who was sent by countries that are known as great, powerful,
+            rich, and known as human rights defenders.
           </p>
           <p className={styles.section_three}>
             <strong className={styles.terrorist}>
               What this terrorist organisation actually did?
             </strong>
-            They staged a coup against the King of Iran, Mohammad Reza Pahlavi in 1979. Mohammad Reza Pahlavi likewise the Great Cyrus, had the plan to bring peace to the area. The King of Iran wanted dignity and respect for his people, and he worked hard to put into action the human rights defined by Great Cyrus, but at the same time, this plan was a threat to the sender of Mullahs. After that coup, the IRI took over all the natural resources of Iran including natural gas, coal, chromium, copper, iron ore, lead, manganese, zinc, sulphur and so on.
+            They staged a coup against the King of Iran, Mohammad Reza Pahlavi
+            in 1979. Mohammad Reza Pahlavi likewise the Great Cyrus, had the
+            plan to bring peace to the area. The King of Iran wanted dignity and
+            respect for his people, and he worked hard to put into action the
+            human rights defined by Great Cyrus, but at the same time, this plan
+            was a threat to the sender of Mullahs. After that coup, the IRI took
+            over all the natural resources of Iran including oil, natural gas, gold, coal,
+            chromium, copper, iron ore, lead, manganese, zinc, sulphur and so
+            on.
             <br />
             {`Despite their evil plan, they play a hypocritical role and play the role of an Islamic organization. However, IRI acts according to the plan that Mullah's sender has for Asian countries. IRI organised and sent many groups of terrorists to the neighbour countries such as Lebanon, Iraq, Syria, and Yemen. The IRI looted all the wealth of Iran and gave it to all those terrorist groups, and they are founded by the IRI.`}
             <br />
             <br />
-            <strong>In simple words,</strong> {`the plan was to keep Iran from becoming a great and powerful country by oppressing and impoverishing Iranians, as well as intimidating other Asian countries with IRI. They can then sell their weapons and military equipment to countries that fear IRI and buy Iran's natural resources at the cheapest price. They can also be shown as good countries in front of the media by acting as human rights defenders and accepting asylum seekers from countries that are at war because of IRI terrorist groups.`}
+            <strong>In simple words,</strong>{" "}
+            {`the plan was to keep Iran from becoming a great and powerful country by oppressing and impoverishing Iranians, as well as intimidating other Asian countries with IRI. They can then sell their weapons and military equipment to countries that fear IRI and buy Iran's natural resources at the cheapest price. They can also be shown as good countries in front of the media by acting as human rights defenders and accepting asylum seekers from countries that are at war because of IRI terrorist groups.`}
           </p>
 
           <p className={styles.section_four}>
@@ -62,9 +77,8 @@ const Views = () => {
             <strong className={styles.what_is}>
               {" "}
               What is going on in Iran?
-            </strong>{
-
-              `The majority of Iranians across the country want to overthrow the regime of the Islamic Republic and make Iran a secular democratic country.
+            </strong>
+            {`
 
             The executions of political and civil figures, the lack of freedom of expression, the ignoring womens rights, the economic crisis, the destruction of natural resources, the looting of the country's national resources, and spending them in other countries to support terrorists have enraged the Iranian people more and more over the past four decades.
 
@@ -75,9 +89,7 @@ const Views = () => {
 
             In many cases, police refuse to release the bodies of those killed to their families. In return, they extort vast sums of money from bereaved families, preventing them from holding a proper burial.
 
-            According to Human Rights Activists in Iran (HRA), during these three months, more than 490 people have been killed by the security forces while participating in anti-government demonstrations, and more than 18,000 people have been arrested by the authorities, who are added to the list of executioners every day.`
-            }
-
+            According to Human Rights Activists in Iran (HRA), during these three months, more than 490 people have been killed by the security forces while participating in anti-government demonstrations, and more than 18,000 people have been arrested by the authorities, who are added to the list of executioners every day.`}
           </p>
         </div>
       )}
