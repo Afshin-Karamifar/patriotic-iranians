@@ -602,5 +602,14 @@
     "state": "Martyred",
     "city": "Sardasht",
     "image": "Shahriar_Adeli.png"
+  },
+  {
+    "firstName": "Kobra",
+    "lastName": "Rahimi",
+    "gender": "Female",
+    "age": 16,
+    "state": "Execution_List",
+    "city": "Abadan",
+    "image": "Kobra_Rahmani.png"
   }
 ]
