@@ -503,5 +503,23 @@
     "state": "Martyred",
     "city": "Ghouehan",
     "image": "Ali_Mozaffari.png"
+  },
+  {
+    "firstName": "Farhad",
+    "lastName": "Tahazadeh",
+    "gender": "Male",
+    "age": 24,
+    "state": "Execution_List",
+    "city": "Oshnavieh",
+    "image": "Farhad_Tahazadeh.png"
+  },
+  {
+    "firstName": "Farzad",
+    "lastName": "Tahazadeh",
+    "gender": "Male",
+    "age": 23,
+    "state": "Execution_List",
+    "city": "Oshnavieh",
+    "image": "Farzad_Tahazadeh.png"
   }
 ]
