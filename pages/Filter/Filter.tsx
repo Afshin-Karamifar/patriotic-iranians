@@ -96,7 +96,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             onChangeHandler({ ...filter, ...{ mainFilter: "Execution_List" } });
           }}
         >
-          In list to be Execution
+          Listed for Execution
         </span>
       </div>
       <div className={styles.secondContainer}>
