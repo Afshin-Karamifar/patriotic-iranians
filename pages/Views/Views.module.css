@@ -72,11 +72,16 @@
   margin-bottom: 5px;
 }
 
-.section_one {
+.section_one, .section_one_second {
   padding: 5px;
   border-left: 2px solid #ff3f34;
   border-radius: 0px 5px 5px 0px;
   margin-left: 1px;
+}
+
+.section_one_second {
+  line-height: 20px;
+  text-align: left;
 }
 
 .section_four {

@@ -584,5 +584,14 @@
     "state": "Martyred",
     "city": "Sanandaj",
     "image": "Sarina_Saedi.png"
+  },
+  {
+    "firstName": "Mohammad Hossein",
+    "lastName": "Kamandlo",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Teharn",
+    "image": "Mohammad_Hossein_Kamandlo.png"
   }
 ]

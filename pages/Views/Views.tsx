@@ -28,12 +28,10 @@ const Views = () => {
               ISLAMIC REPUBLIC OF IRAN.
             </strong>
           </p>
-          <p className={styles.section_one}>
-            <strong>
-              THE ISLAMIC REPUBLIC OF IRAN{" "}
-              <strong className={styles.is_not}>IS NOT REPRESENTING </strong>{" "}
-              <strong className={styles.iran}>IRAN</strong>
-            </strong>
+          <p className={styles.section_one_second}>
+            THE ISLAMIC REPUBLIC OF IRAN{" "}
+            <strong className={styles.is_not}>IS NOT REPRESENTING </strong>{" "}
+            <strong className={styles.iran}>IRAN</strong>
           </p>
           <p className={styles.section_second}>
             <strong className={styles.terrorist}>
@@ -54,9 +52,9 @@ const Views = () => {
             respect for his people, and he worked hard to put into action the
             human rights defined by Great Cyrus, but at the same time, this plan
             was a threat to the sender of Mullahs. After that coup, the IRI took
-            over all the natural resources of Iran including oil, natural gas, gold, coal,
-            chromium, copper, iron ore, lead, manganese, zinc, sulphur and so
-            on.
+            over all the natural resources of Iran including oil, natural gas,
+            gold, coal, chromium, copper, iron ore, lead, manganese, zinc,
+            sulphur and so on.
             <br />
             {`Despite their evil plan, they play a hypocritical role and play the role of an Islamic organization. However, IRI acts according to the plan that Mullah's sender has for Asian countries. IRI organised and sent many groups of terrorists to the neighbour countries such as Lebanon, Iraq, Syria, and Yemen. The IRI looted all the wealth of Iran and gave it to all those terrorist groups, and they are founded by the IRI.`}
             <br />
