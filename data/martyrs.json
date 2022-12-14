@@ -530,5 +530,32 @@
     "state": "Execution_List",
     "city": "Oshnavieh",
     "image": "Karvan_Shahi.png"
+  },
+  {
+    "firstName": "Javad",
+    "lastName": "Pousheh",
+    "gender": "Male",
+    "age": 13,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Javad_Pousheh.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Rakhshani",
+    "gender": "Male",
+    "age": 12,
+    "state": "Martyred",
+    "city": "Zahedan",
+    "image": "Mohammad_Rakhshani.png"
+  },
+  {
+    "firstName": "Mohammad Reza",
+    "lastName": "Sarvari",
+    "gender": "Male",
+    "age": 14,
+    "state": "Martyred",
+    "city": "Shahr-e Rey",
+    "image": "Mohammad_Reza_Sarvari.png"
   }
 ]
