@@ -53,7 +53,7 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
-          <strong>{(39).toLocaleString("en-IN")}</strong>
+          <strong>{(38).toLocaleString("en-IN")}</strong>
         </p>
       </div>
     </div>
