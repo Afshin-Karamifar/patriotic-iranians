@@ -16,7 +16,10 @@ const Menu = () => {
       </div>
       <div className={styles.container}>
         <p className={styles.report_title}>
-          Iranian Protest 2022 - Daily Update
+          Iranian Protest - Daily Update - <span className={styles.year}>2022</span>
+        </p>
+        <p className={styles.report_title_date}>
+          From September until Now
         </p>
         <p className={styles.report}>
           Number of Martyrs: <strong>{(493).toLocaleString("en-IN")}</strong>
