@@ -557,5 +557,32 @@
     "state": "Martyred",
     "city": "Shahr-e Rey",
     "image": "Mohammad_Reza_Sarvari.png"
+  },
+  {
+    "firstName": "Nima",
+    "lastName": "Shafagh Doost",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Urumieh",
+    "image": "Nima_Shafagh_Doost.png"
+  },
+  {
+    "firstName": "Yaser",
+    "lastName": "Bahador Zehi",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Khash",
+    "image": "Yaser_Bahador_Zehi.png"
+  },
+  {
+    "firstName": "Sarina",
+    "lastName": "Saedi",
+    "gender": "Female",
+    "age": 15,
+    "state": "Martyred",
+    "city": "Sanandaj",
+    "image": "Sarina_Saedi.png"
   }
 ]
