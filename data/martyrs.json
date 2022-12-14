@@ -521,5 +521,14 @@
     "state": "Execution_List",
     "city": "Oshnavieh",
     "image": "Farzad_Tahazadeh.png"
+  },
+  {
+    "firstName": "Karvan",
+    "lastName": "Shahi",
+    "gender": "Male",
+    "age": 23,
+    "state": "Execution_List",
+    "city": "Oshnavieh",
+    "image": "Karvan_Shahi.png"
   }
 ]
