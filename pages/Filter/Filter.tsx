@@ -69,7 +69,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
               : styles.main_filter
           }
           onClick={() => {
-            onChangeHandler({ ...filter, ...{ mainFilter: "Martyred" } });
+            onChangeHandler({ ...filter, ...{ mainFilter: filter.mainFilter === "Martyred" ? "" : "Martyred" } });
           }}
         >
           Murdered
@@ -81,7 +81,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
               : styles.main_filter
           }
           onClick={() => {
-            onChangeHandler({ ...filter, ...{ mainFilter: "Executed" } });
+            onChangeHandler({ ...filter, ...{ mainFilter: filter.mainFilter === "Executed" ? "" : "Executed" } });
           }}
         >
           Executed
@@ -93,7 +93,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
               : styles.main_filter
           }
           onClick={() => {
-            onChangeHandler({ ...filter, ...{ mainFilter: "Execution_List" } });
+            onChangeHandler({ ...filter, ...{ mainFilter: filter.mainFilter === "Execution_List" ? "" : "Execution_List" } });
           }}
         >
           Listed for Execution

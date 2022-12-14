@@ -54,16 +54,15 @@
 }
 
 .terrorist {
-  text-align: left;
   display: block;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .iranian {
   display: block;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .what_is {
