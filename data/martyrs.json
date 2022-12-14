@@ -593,5 +593,14 @@
     "state": "Martyred",
     "city": "Teharn",
     "image": "Mohammad_Hossein_Kamandlo.png"
+  },
+  {
+    "firstName": "Shahriaar",
+    "lastName": "Adeli",
+    "gender": "Male",
+    "age": 27,
+    "state": "Martyred",
+    "city": "Sardasht",
+    "image": "Shahriar_Adeli.png"
   }
 ]
