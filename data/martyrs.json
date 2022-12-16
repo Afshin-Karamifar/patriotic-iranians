@@ -685,6 +685,15 @@
     "image": "Mehran_Samak.png"
   },
   {
+    "firstName": "Pedram",
+    "lastName": "Azarnoush",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Kohgiluyeh and Boyer-Ahmad",
+    "image": "Pedram_Azar_Noush.png"
+  },
+  {
     "firstName": "Jalil",
     "lastName": "Azizpour",
     "gender": "Male",
@@ -692,5 +701,23 @@
     "state": "Execution_List",
     "city": "Ilam",
     "image": "Jalil_Azizpour.png"
+  },
+  {
+    "firstName": "Mehrdad",
+    "lastName": "Behnam Asl",
+    "gender": "Male",
+    "age": 30,
+    "state": "Martyred",
+    "city": "Kohgiluyeh and Boyer-Ahmad",
+    "image": "Mehrdad_Behnam_Asl.png"
+  },
+  {
+    "firstName": "Shahin",
+    "lastName": "Moradi",
+    "gender": "Male",
+    "age": 28,
+    "state": "Martyred",
+    "city": "Kohdasht",
+    "image": "Shahin_Moradi.png"
   }
 ]
