@@ -683,5 +683,14 @@
     "state": "Martyred",
     "city": "Anzali",
     "image": "Mehran_Samak.png"
+  },
+  {
+    "firstName": "Jalil",
+    "lastName": "Azizpour",
+    "gender": "Male",
+    "age": 31,
+    "state": "Execution_List",
+    "city": "Ilam",
+    "image": "Jalil_Azizpour.png"
   }
 ]

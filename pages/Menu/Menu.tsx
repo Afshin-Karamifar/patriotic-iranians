@@ -45,7 +45,7 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(632).toLocaleString("en-IN")}</strong>
+          <strong>{(636).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
