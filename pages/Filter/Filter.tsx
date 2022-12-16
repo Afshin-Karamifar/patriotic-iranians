@@ -41,7 +41,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
         (martyr: Martyr) =>
           `${martyr.firstName} ${martyr.lastName}`
             .toLowerCase()
-            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0
+            .indexOf(searchFilter.current?.value.toLowerCase()!) >= 0 || martyr.city.toLowerCase().indexOf(searchFilter.current?.value.toLowerCase()!) >= 0
       )
     );
   }
@@ -54,7 +54,7 @@ const Filter = ({ martyrs }: { martyrs: Martyr[] }) => {
             ref={searchFilter}
             className={styles.search}
             onChange={() => onChangeHandler(filter)}
-            placeholder={"Enter name or surname . . ."}
+            placeholder={"Enter Name/Surname or City . . ."}
           />
           <i
             className={`fa-solid fa-magnifying-glass ${styles.searchIcon}`}
