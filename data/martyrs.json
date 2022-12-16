@@ -611,5 +611,77 @@
     "state": "Execution_List",
     "city": "Abdanan",
     "image": "Sonia_Sharifi.png"
+  },
+  {
+    "firstName": "Makan",
+    "lastName": "Davari",
+    "gender": "Male",
+    "age": 19,
+    "state": "Martyred",
+    "city": "Langarud",
+    "image": "Makan_Davari.png"
+  },
+  {
+    "firstName": "Ghazaleh",
+    "lastName": "Chalabi",
+    "gender": "Female",
+    "age": 33,
+    "state": "Martyred",
+    "city": "Amol",
+    "image": "Ghazaleh_Chalabi.png"
+  },
+  {
+    "firstName": "Mahdi",
+    "lastName": "Hazarati",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Karaj",
+    "image": "Mahdi_Hazarati.png"
+  },
+  {
+    "firstName": "Ali Reza",
+    "lastName": "Karimi",
+    "gender": "Male",
+    "age": 24,
+    "state": "Martyred",
+    "city": "Eslam Abade Gharb",
+    "image": "Unknow.jpg"
+  },
+  {
+    "firstName": "Ali Reza",
+    "lastName": "Karimi",
+    "gender": "Male",
+    "age": 20,
+    "state": "Martyred",
+    "city": "Arak",
+    "image": "Alireza_Karimi.png"
+  },
+  {
+    "firstName": "Artin",
+    "lastName": "Rahmani",
+    "gender": "Male",
+    "age": 14,
+    "state": "Martyred",
+    "city": "Izeh",
+    "image": "Artin_Rahmani.png"
+  },
+  {
+    "firstName": "Mehrshad",
+    "lastName": "Shahidi",
+    "gender": "Male",
+    "age": 19,
+    "state": "Martyred",
+    "city": "Arak",
+    "image": "Mehrshad_Shahidi.png"
+  },
+  {
+    "firstName": "Mehran",
+    "lastName": "Sammak",
+    "gender": "Male",
+    "age": 27,
+    "state": "Martyred",
+    "city": "Anzali",
+    "image": "Mehran_Samak.png"
   }
 ]
