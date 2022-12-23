@@ -5,9 +5,9 @@ const Menu = () => {
     <div>
       <div className={styles.container}>
         <p className={styles.note}>
-          The actual number of martyrs is higher, as it includes children and
+          {`The actual number of martyrs is higher, as it includes children and
           executed martyrs. We have just started and are doing our best to upload
-          the martyrs' data.&nbsp;&nbsp;
+          the martyrs' data.`}&nbsp;&nbsp;
           <br />
           <a href="mailto:iran@patrioticiranians.info">
             <span className={styles.contact_me}>Contact us </span>
