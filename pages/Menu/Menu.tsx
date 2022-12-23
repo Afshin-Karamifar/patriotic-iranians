@@ -6,8 +6,8 @@ const Menu = () => {
       <div className={styles.container}>
         <p className={styles.note}>
           The actual number of martyrs is higher, as it includes children and
-          executed martyrs. We just started and are working so hard to upload
-          the martyrs data.&nbsp;&nbsp;
+          executed martyrs. We have just started and are doing our best to upload
+          the martyrs' data.&nbsp;&nbsp;
           <br />
           <a href="mailto:iran@patrioticiranians.info">
             <span className={styles.contact_me}>Contact us </span>
@@ -22,7 +22,7 @@ const Menu = () => {
           From September until Now
         </p>
         <p className={styles.report}>
-          Number of Martyrs: <strong>{(503).toLocaleString("en-IN")}</strong>
+          Number of Martyrs: <strong>{(506).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Children Murdered: <strong>{(69).toLocaleString("en-IN")}</strong>
@@ -41,19 +41,19 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
-          <strong>{(18452).toLocaleString("en-IN")}</strong>
+          <strong>{(18477).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(652).toLocaleString("en-IN")}</strong>
+          <strong>{(655).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
-          <strong>{(3976).toLocaleString("en-IN")}</strong>
+          <strong>{(4025).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
-          <strong>{(39).toLocaleString("en-IN")}</strong>
+          <strong>{(59).toLocaleString("en-IN")}</strong>
         </p>
       </div>
     </div>

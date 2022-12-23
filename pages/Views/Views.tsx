@@ -9,7 +9,7 @@ const Views = () => {
         className={styles.container}
         onClick={() => setShowQuote((prevState) => !prevState)}
       >
-        <p className={styles.title}>See what is going on in iran . . .</p>
+        <p className={styles.title}>See what is going on in Iran . . .</p>
         <i
           className={`fa-solid ${showQuote
             ? `fa-angle-down ${styles.arrow_Icon_rotating}`
