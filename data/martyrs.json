@@ -1061,5 +1061,50 @@
     "state": "Martyred",
     "city": "Javanrood",
     "image": "Erfan_Kakaie.png"
+  },
+  {
+    "firstName": "Bahaodin",
+    "lastName": "Veysi",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Javanrood",
+    "image": "Bahaodin_Veysi.png"
+  },
+  {
+    "firstName": "Farjad",
+    "lastName": "Darvishi",
+    "gender": "Male",
+    "age": 23,
+    "state": "Martyred",
+    "city": "Urumieh",
+    "image": "Farjad_Darvishi.png"
+  },
+  {
+    "firstName": "Reza",
+    "lastName": "Lotfi",
+    "gender": "Male",
+    "age": 39,
+    "state": "Martyred",
+    "city": "Deh Golan",
+    "image": "Reza_Lotfi.png"
+  },
+  {
+    "firstName": "Milad",
+    "lastName": "Zare",
+    "gender": "Male",
+    "age": 25,
+    "state": "Martyred",
+    "city": "Babol",
+    "image": "Milad_Zare.png"
+  },
+  {
+    "firstName": "Foad",
+    "lastName": "Ghadimi",
+    "gender": "Male",
+    "age": 42,
+    "state": "Martyred",
+    "city": "Diwan Dareh",
+    "image": "Foad_Ghadimi.png"
   }
 ]
