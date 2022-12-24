@@ -1155,10 +1155,82 @@
   {
     "firstName": "Sadroddin",
     "lastName": "Lityani",
-    "gender": "Female",
+    "gender": "Male",
     "age": 27,
     "state": "Martyred",
     "city": "Oshnavieh",
     "image": "Sadroddin_Lityani.png"
+  },
+  {
+    "firstName": "Danesh",
+    "lastName": "Rahnama",
+    "gender": "Male",
+    "age": 25,
+    "state": "Martyred",
+    "city": "Urumieh",
+    "image": "Danesh_Rahnama.png"
+  },
+  {
+    "firstName": "Hajar",
+    "lastName": "Abbasi",
+    "gender": "Female",
+    "age": 65,
+    "state": "Martyred",
+    "city": "Mahabad",
+    "image": "Hajar_Abbasi.png"
+  },
+  {
+    "firstName": "Erfan",
+    "lastName": "Rezai",
+    "gender": "Male",
+    "age": 65,
+    "state": "Martyred",
+    "city": "Amol",
+    "image": "Erfan_Rezai.png"
+  },
+  {
+    "firstName": "Freydoun",
+    "lastName": "Mahmoudi",
+    "gender": "Male",
+    "age": 33,
+    "state": "Martyred",
+    "city": "Saghez",
+    "image": "Freydoun_Mahmoudi.png"
+  },
+  {
+    "firstName": "Amin",
+    "lastName": "Maroofi",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Oshnavieh",
+    "image": "Amin_Maroofi.png"
+  },
+  {
+    "firstName": "Erfan",
+    "lastName": "Khazai",
+    "gender": "Male",
+    "age": 30,
+    "state": "Martyred",
+    "city": "Kurdestan",
+    "image": "Erfan_Khazai.png"
+  },
+  {
+    "firstName": "Parsa",
+    "lastName": "Rezadoost",
+    "gender": "Male",
+    "age": 18,
+    "state": "Martyred",
+    "city": "Hashtgerd",
+    "image": "Parsa_Rezadoost.png"
+  },
+  {
+    "firstName": "Reza",
+    "lastName": "Shahparnia",
+    "gender": "Male",
+    "age": 23,
+    "state": "Martyred",
+    "city": "Kermanshah",
+    "image": "Reza_Shahparnia.png"
   }
 ]
