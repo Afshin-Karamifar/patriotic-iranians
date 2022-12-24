@@ -971,5 +971,95 @@
     "state": "Martyred",
     "city": "Ardabil",
     "image": "Osra_Panahi.png"
+  },
+  {
+    "firstName": "Donya",
+    "lastName": "Farhadi",
+    "gender": "Female",
+    "age": 21,
+    "state": "Martyred",
+    "city": "Ahvaz",
+    "image": "Donya_Farhadi.png"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Adineh Zadeh",
+    "gender": "Male",
+    "age": 17,
+    "state": "Martyred",
+    "city": "Mashhad",
+    "image": "Ali_Adinehzadeh.png"
+  },
+  {
+    "firstName": "Zahara",
+    "lastName": "Sedighi Hamadai",
+    "gender": "Female",
+    "age": 31,
+    "state": "Execution_List",
+    "city": "Urumieh",
+    "image": "Zahra_Sedighi.png"
+  },
+  {
+    "firstName": "Elham",
+    "lastName": "Chobdar",
+    "gender": "Female",
+    "age": 24,
+    "state": "Execution_List",
+    "city": "Urumieh",
+    "image": "Elham_Chobdar.png"
+  },
+  {
+    "firstName": "Shadman",
+    "lastName": "Ahmadi",
+    "gender": "Male",
+    "age": 32,
+    "state": "Martyred",
+    "city": "Deh Golan",
+    "image": "Shadman_Ahmadi.png"
+  },
+  {
+    "firstName": "Bahman",
+    "lastName": "Marofi",
+    "gender": "Male",
+    "age": 39,
+    "state": "Martyred",
+    "city": "Oshnavieh",
+    "image": "Bahman_Marofi.png"
+  },
+  {
+    "firstName": "Atefeh",
+    "lastName": "Naami",
+    "gender": "Female",
+    "age": 37,
+    "state": "Martyred",
+    "city": "Karaj",
+    "image": "Atefeh_Naami.png"
+  },
+  {
+    "firstName": "Nima",
+    "lastName": "Noori",
+    "gender": "Male",
+    "age": 18,
+    "state": "Martyred",
+    "city": "Karaj",
+    "image": "Nima_Noori.png"
+  },
+  {
+    "firstName": "Hesam",
+    "lastName": "Ferdowsi",
+    "gender": "Male",
+    "age": 24,
+    "state": "Martyred",
+    "city": "Tehran",
+    "image": "Hesam_Ferdowsi.png"
+  },
+  {
+    "firstName": "Erfan",
+    "lastName": "Kakaie",
+    "gender": "Male",
+    "age": 48,
+    "state": "Martyred",
+    "city": "Javanrood",
+    "image": "Erfan_Kakaie.png"
   }
 ]
