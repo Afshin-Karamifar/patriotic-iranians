@@ -926,5 +926,50 @@
     "state": "Execution_List",
     "city": "Zahedan",
     "image": "Nezam_Hoot.png"
+  },
+  {
+    "firstName": "Pooria",
+    "lastName": "Javaheri",
+    "gender": "Male",
+    "age": 31,
+    "state": "Execution_List",
+    "city": "Kamyaran",
+    "image": "Pooria_Javaheri.png"
+  },
+  {
+    "firstName": "Mohammad Haji",
+    "lastName": "Rasoulpoor",
+    "gender": "Male",
+    "age": 52,
+    "state": "Martyred",
+    "city": "Bokan",
+    "image": "Mohammad_Haji_Rasoulpoor.png"
+  },
+  {
+    "firstName": "Soroush",
+    "lastName": "Poor Ahmadi",
+    "gender": "Male",
+    "age": 32,
+    "state": "Martyred",
+    "city": "Ziba Kenar",
+    "image": "Soroush_Poor_Ahmadai.png"
+  },
+  {
+    "firstName": "Meysam",
+    "lastName": "Mobarhan",
+    "gender": "Male",
+    "age": 38,
+    "state": "Execution_List",
+    "city": "Malekan",
+    "image": "Meysam_Mobarhan.png"
+  },
+  {
+    "firstName": "Osra",
+    "lastName": "Panahi",
+    "gender": "Female",
+    "age": 15,
+    "state": "Martyred",
+    "city": "Ardabil",
+    "image": "Osra_Panahi.png"
   }
 ]
