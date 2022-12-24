@@ -899,5 +899,32 @@
     "state": "Martyred",
     "city": "Shiraz",
     "image": "Omid_Movayedi.png"
+  },
+  {
+    "firstName": "Mozhgan",
+    "lastName": "Kavoosi",
+    "gender": "Female",
+    "age": 36,
+    "state": "Execution_List",
+    "city": "Kelar Dasht",
+    "image": "Mozhgan_Kavoosi.png"
+  },
+  {
+    "firstName": "Mansour",
+    "lastName": "Hoot",
+    "gender": "Male",
+    "age": 33,
+    "state": "Execution_List",
+    "city": "Zahedan",
+    "image": "Mansour_Hoot.png"
+  },
+  {
+    "firstName": "Nezam",
+    "lastName": "Hoot",
+    "gender": "Male",
+    "age": 31,
+    "state": "Execution_List",
+    "city": "Zahedan",
+    "image": "Nezam_Hoot.png"
   }
 ]
