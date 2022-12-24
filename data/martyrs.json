@@ -1151,5 +1151,14 @@
     "state": "Martyred",
     "city": "Fuladshahr",
     "image": "Mahsa_Mowgoi.png"
+  },
+  {
+    "firstName": "Sadroddin",
+    "lastName": "Lityani",
+    "gender": "Female",
+    "age": 27,
+    "state": "Martyred",
+    "city": "Oshnavieh",
+    "image": "Sadroddin_Lityani.png"
   }
 ]
