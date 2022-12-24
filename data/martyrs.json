@@ -1106,5 +1106,50 @@
     "state": "Martyred",
     "city": "Diwan Dareh",
     "image": "Foad_Ghadimi.png"
+  },
+  {
+    "firstName": "Mohsen",
+    "lastName": "Mohammadi",
+    "gender": "Male",
+    "age": 29,
+    "state": "Martyred",
+    "city": "Diwan Dareh",
+    "image": "Mohsen_Mohammadi.png"
+  },
+  {
+    "firstName": "Hananeh",
+    "lastName": "Kia",
+    "gender": "Female",
+    "age": 23,
+    "state": "Martyred",
+    "city": "Nowshar",
+    "image": "Hananeh_Kia.png"
+  },
+  {
+    "firstName": "Milan",
+    "lastName": "Haghighi",
+    "gender": "Male",
+    "age": 21,
+    "state": "Martyred",
+    "city": "Oshnavieh",
+    "image": "Milan_Haghighi.png"
+  },
+  {
+    "firstName": "Mohsen",
+    "lastName": "Gheysari",
+    "gender": "Male",
+    "age": 32,
+    "state": "Martyred",
+    "city": "Ilam",
+    "image": "Mohsen_Gheysari.png"
+  },
+  {
+    "firstName": "Mahsa",
+    "lastName": "Mowgoi",
+    "gender": "Female",
+    "age": 18,
+    "state": "Martyred",
+    "city": "Fuladshahr",
+    "image": "Mahsa_Mowgoi.png"
   }
 ]
