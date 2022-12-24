@@ -1232,5 +1232,32 @@
     "state": "Martyred",
     "city": "Kermanshah",
     "image": "Reza_Shahparnia.png"
+  },
+  {
+    "firstName": "Abdollah",
+    "lastName": "Mohammadpoor",
+    "gender": "Male",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Urumieh",
+    "image": "Abdollah_Mohammadpoor.png"
+  },
+  {
+    "firstName": "Mehrzad",
+    "lastName": "Avazpoor",
+    "gender": "Male",
+    "age": 46,
+    "state": "Martyred",
+    "city": "Nowshahr",
+    "image": "Mehrzad_Avazpoor.png"
+  },
+  {
+    "firstName": "Mehrzad",
+    "lastName": "Avazpoor",
+    "gender": "Male",
+    "age": 46,
+    "state": "Martyred",
+    "city": "Nowshahr",
+    "image": "Mehrzad_Avazpoor.png"
   }
 ]
