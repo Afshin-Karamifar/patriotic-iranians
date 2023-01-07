@@ -9,7 +9,7 @@ const Menu = () => {
           executed martyrs. We have just started and are doing our best to upload
           the martyrs' data.`}&nbsp;&nbsp;
           <br />
-          <a href="mailto:iran@patrioticiranians.info">
+          <a href="mailto:afshin.karamifar@gmail.com">
             <span className={styles.contact_me}>Contact us </span>
           </a>
         </p>
