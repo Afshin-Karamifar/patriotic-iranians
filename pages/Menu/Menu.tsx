@@ -22,16 +22,19 @@ const Menu = () => {
           From September until Now
         </p>
         <p className={styles.report}>
-          Number of Martyrs: <strong>{(519).toLocaleString("en-IN")}</strong>
+          Number of Martyrs: <strong>{(520).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Children Murdered: <strong>{(70).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
+          Number of Children Arrested(under 18): <strong>{(168).toLocaleString("en-IN")}</strong>
+        </p>
+        <p className={styles.report}>
           Number of Executed: <strong>{(4).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Protests: <strong>{(1241).toLocaleString("en-IN")}</strong>
+          Number of Protests: <strong>{(1251).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Cities Involved: <strong>{(163).toLocaleString("en-IN")}</strong>
@@ -41,19 +44,19 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
-          <strong>{(19262).toLocaleString("en-IN")}</strong>
+          <strong>{(19396).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(693).toLocaleString("en-IN")}</strong>
+          <strong>{(709).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
-          <strong>{(4721).toLocaleString("en-IN")}</strong>
+          <strong>{(4937).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
-          <strong>{(59).toLocaleString("en-IN")}</strong>
+          <strong>{(110).toLocaleString("en-IN")}</strong>
         </p>
       </div>
     </div>
