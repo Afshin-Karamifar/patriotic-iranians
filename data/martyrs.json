@@ -1358,5 +1358,14 @@
     "state": "Martyred",
     "city": "Rasht",
     "image": "Behnam_Layeghpoor.png"
+  },
+  {
+    "firstName": "Ghazaleh",
+    "lastName": "Amiri",
+    "gender": "Female",
+    "age": 20,
+    "state": "Martyred",
+    "city": "Shiraz",
+    "image": "Ghazal_Amiri.png"
   }
 ]
