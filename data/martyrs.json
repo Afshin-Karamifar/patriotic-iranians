@@ -1394,5 +1394,23 @@
     "state": "Execution_List",
     "city": "Lordegan",
     "image": "Arash_Ghanbari.png"
+  },
+  {
+    "firstName": "Bahar",
+    "lastName": "Khorshidi",
+    "gender": "Female",
+    "age": 22,
+    "state": "Martyred",
+    "city": "Tehran",
+    "image": "Bahar_Khorshidi.png"
+  },
+  {
+    "firstName": "Mehdi",
+    "lastName": "Kaboli",
+    "gender": "Male",
+    "age": 15,
+    "state": "Martyred",
+    "city": "Gorgan",
+    "image": "Mehdi_Kaboli.png"
   }
 ]
