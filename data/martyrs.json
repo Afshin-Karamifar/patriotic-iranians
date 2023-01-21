@@ -411,7 +411,7 @@
     "gender": "Female",
     "age": 17,
     "state": "Martyred",
-    "city": "Teharn",
+    "city": "Tehran",
     "image": "Setareh_Tajik.png"
   },
   {
@@ -456,7 +456,7 @@
     "gender": "Male",
     "age": 20,
     "state": "Martyred",
-    "city": "Teharn",
+    "city": "Tehran",
     "image": "Hamid_Reza_Rouhi.png"
   },
   {
@@ -591,7 +591,7 @@
     "gender": "Male",
     "age": 17,
     "state": "Martyred",
-    "city": "Teharn",
+    "city": "Tehran",
     "image": "Mohammad_Hossein_Kamandlo.png"
   },
   {
@@ -1412,5 +1412,50 @@
     "state": "Martyred",
     "city": "Gorgan",
     "image": "Mehdi_Kaboli.png"
+  },
+  {
+    "firstName": "Arman",
+    "lastName": "Emadi",
+    "gender": "Male",
+    "age": 28,
+    "state": "Martyred",
+    "city": "Marvdasht",
+    "image": "Arman_Emadi.png"
+  },
+  {
+    "firstName": "Mohammad",
+    "lastName": "Eskandari",
+    "gender": "Male",
+    "age": 25,
+    "state": "Martyred",
+    "city": "Tehran",
+    "image": "Mohammad_Eskandari.png"
+  },
+  {
+    "firstName": "Mehdi",
+    "lastName": "Mohammadi Fard",
+    "gender": "Male",
+    "age": 25,
+    "state": "Execution_List",
+    "city": "Mazandaran",
+    "image": "Mehdi_MohammadiFard.png"
+  },
+  {
+    "firstName": "Shoaib",
+    "lastName": "Mir Baloch Zehi",
+    "gender": "Male",
+    "age": 18,
+    "state": "Execution_List",
+    "city": "Sistan and Baluchestan",
+    "image": "Shoaib_MirBalochZehi.png"
+  },
+  {
+    "firstName": "Shoaib",
+    "lastName": "Mir Baloch Zehi",
+    "gender": "Male",
+    "age": 18,
+    "state": "Execution_List",
+    "city": "Sistan and Baluchestan",
+    "image": "Shoaib_MirBalochZehi.png"
   }
 ]
