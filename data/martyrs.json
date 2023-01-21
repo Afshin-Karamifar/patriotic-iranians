@@ -1367,5 +1367,32 @@
     "state": "Martyred",
     "city": "Shiraz",
     "image": "Ghazal_Amiri.png"
+  },
+  {
+    "firstName": "Sepehr",
+    "lastName": "Esmaili",
+    "gender": "Male",
+    "age": 22,
+    "state": "Martyred",
+    "city": "Ghazvin",
+    "image": "Sepehr_Esmaili.png"
+  },
+  {
+    "firstName": "Hasti",
+    "lastName": "Hosaein Panahi",
+    "gender": "Female",
+    "age": 16,
+    "state": "Martyred",
+    "city": "Deh Golan",
+    "image": "Hasti_Hoseinpanahi.png"
+  },
+  {
+    "firstName": "Arash",
+    "lastName": "Ghanbari",
+    "gender": "Male",
+    "age": 40,
+    "state": "Execution_List",
+    "city": "Lordegan",
+    "image": "Arash_Ghanbari.png"
   }
 ]
