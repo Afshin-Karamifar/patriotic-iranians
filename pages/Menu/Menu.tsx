@@ -22,10 +22,10 @@ const Menu = () => {
           From September until Now
         </p>
         <p className={styles.report}>
-          Number of Martyrs: <strong>{(520).toLocaleString("en-IN")}</strong>
+          Number of Martyrs: <strong>{(525).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Children Murdered: <strong>{(70).toLocaleString("en-IN")}</strong>
+          Number of Children Murdered: <strong>{(71).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Children Arrested(under 18): <strong>{(168).toLocaleString("en-IN")}</strong>
@@ -34,25 +34,25 @@ const Menu = () => {
           Number of Executed: <strong>{(4).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Protests: <strong>{(1251).toLocaleString("en-IN")}</strong>
+          Number of Protests: <strong>{(1260).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Cities Involved: <strong>{(163).toLocaleString("en-IN")}</strong>
+          Number of Cities Involved: <strong>{(164).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Universities Involved: <strong>{(144).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
-          <strong>{(19396).toLocaleString("en-IN")}</strong>
+          <strong>{(19546).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(709).toLocaleString("en-IN")}</strong>
+          <strong>{(713).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
-          <strong>{(4937).toLocaleString("en-IN")}</strong>
+          <strong>{(5022).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
