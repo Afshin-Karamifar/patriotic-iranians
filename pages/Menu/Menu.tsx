@@ -44,15 +44,15 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
-          <strong>{(19546).toLocaleString("en-IN")}</strong>
+          <strong>{(19571).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(713).toLocaleString("en-IN")}</strong>
+          <strong>{(716).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
-          <strong>{(5022).toLocaleString("en-IN")}</strong>
+          <strong>{(5034).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
