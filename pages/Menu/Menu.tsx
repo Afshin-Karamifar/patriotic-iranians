@@ -22,19 +22,19 @@ const Menu = () => {
           From September until Now
         </p>
         <p className={styles.report}>
-          Number of Martyrs: <strong>{(527).toLocaleString("en-IN")}</strong>
+          Number of Martyrs: <strong>{(529).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Children Murdered: <strong>{(71).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Children Arrested(under 18): <strong>{(178).toLocaleString("en-IN")}</strong>
+          Number of Children Arrested(under 18): <strong>{(180).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Executed: <strong>{(4).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
-          Number of Protests: <strong>{(1262).toLocaleString("en-IN")}</strong>
+          Number of Protests: <strong>{(1267).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of Cities Involved: <strong>{(164).toLocaleString("en-IN")}</strong>
@@ -44,19 +44,19 @@ const Menu = () => {
         </p>
         <p className={styles.report}>
           Number of detainees:{" "}
-          <strong>{(19594).toLocaleString("en-IN")}</strong>
+          <strong>{(19763).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees students:{" "}
-          <strong>{(717).toLocaleString("en-IN")}</strong>
+          <strong>{(720).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees Identified:{" "}
-          <strong>{(5085).toLocaleString("en-IN")}</strong>
+          <strong>{(5180).toLocaleString("en-IN")}</strong>
         </p>
         <p className={styles.report}>
           Number of detainees that IRI wants to execute:{" "}
-          <strong>{(110).toLocaleString("en-IN")}</strong>
+          <strong>{(112).toLocaleString("en-IN")}</strong>
         </p>
       </div>
     </div>
