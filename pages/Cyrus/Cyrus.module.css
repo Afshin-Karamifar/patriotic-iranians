@@ -1,27 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Source+Sans+Pro&family=Zen+Dots&display=swap");
 
 .container {
-  color: #2f3640;
+  color: var(--fg-white-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 20px;
   margin-top: 4px;
   text-align: justify;
-  background-color: #f1f2f6;
   border-radius: 15px;
   font-size: 1.3rem;
-
+  background-color: var(--container-bg-color);
 }
 
 .quote {
+  color: var(--fg-white-color);
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5px 20px;
   text-align: justify;
-  background-color: #f1f2f6;
+  background-color: var(--container-bg-color);
   border-radius: 15px;
   margin-top: 4px;
 }
@@ -36,8 +36,12 @@
   animation: rotate-icon 500ms forwards;
 }
 
+.container:hover {
+  cursor: pointer;
+}
+
 @keyframes rotate-icon {
-  from{
+  from {
     transform: rotate(0deg);
   }
 

@@ -1,7 +1,7 @@
 .container {
   height: 255px;
-  background-color: #05103a;
   background-blend-mode: overlay;
+  background-color: var(--logo-bg-color);
   border-radius: 15px;
 }
 
@@ -37,6 +37,7 @@
   display: flex;
   align-items: center;
   font-size: 1.4rem;
+  font-weight: 550;
 }
 
 .quantity {
@@ -53,6 +54,10 @@
 }
 .qr {
   animation: shareLink 2s infinite;
+}
+
+.qr:hover {
+  cursor: pointer;
 }
 
 .logo {
@@ -83,7 +88,7 @@
   align-items: center;
 }
 
-.tt_close{
+.tt_close {
   text-align: center;
   font-size: 1.5rem;
 }

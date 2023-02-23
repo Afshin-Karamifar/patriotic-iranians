@@ -23,7 +23,11 @@ const Header = ({ views }: { views: View }) => {
         </div>
         <div className={styles.view}>
           <i className={`fa-solid fa-eye ${styles.eye}`}></i>
-          <p className={styles.quantity}>{views?.quantity}</p>
+          <p className={styles.quantity}>
+            {views?.quantity / 1000 > 1
+              ? Math.floor(Number(views?.quantity) / 1000) + "K"
+              : views?.quantity}
+          </p>
         </div>
       </div>
       <div className={styles.logo}>

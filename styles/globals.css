@@ -1,6 +1,20 @@
+:root {
+  --main-bg-color: #ffffff;
+  --logo-bg-color: #05103a;
+  --fg-white-color: #2f3640;
+  --container-bg-color: #f1f2f6;
+  --fg-report-title-color: #05103a;
+  --fg-report-second-title-color: #05103a;
+  --report-left-border-color: #0a3d62;
+  --note-bg-color: #fff6edce;
+  --lighter-bg-color: #ffffff;
+  --shadow-color: 0px 0px 10px rgb(180, 180, 180);
+  --image-shadow: rgb(107, 107, 107) 0px 10px 30px -8px;
+}
+
 html,
 body {
-  background-color: #ffffff;
+  background-color: var(--main-bg-color);
   max-width: 1024px;
   font-size: 62.5%;
   padding: 0;
@@ -23,4 +37,20 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color: #0d1117;
+    --logo-bg-color: #161b22;
+    --lighter-bg-color: #21262d;
+    --fg-white-color: #c9d1d9;
+    --container-bg-color: #161b22;
+    --fg-report-title-color: #00a8ff;
+    --fg-report-second-title-color: #c9d1d9;
+    --report-left-border-color: #00a8ff;
+    --note-bg-color: #161b22;
+    --shadow-color: 0px 0px 0px rgb(180, 180, 180);
+    --image-shadow: none;
+  }
 }

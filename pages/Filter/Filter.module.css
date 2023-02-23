@@ -7,7 +7,7 @@
   margin-top: 4px;
   text-align: justify;
   border-radius: 15px;
-  background-color: #f1f2f6;
+  background-color: var(--container-bg-color);
 }
 
 .secondContainer {
@@ -19,7 +19,7 @@
   padding: 15px 20px 15px 20px;
   border-radius: 15px;
   text-align: justify;
-  background-color: #f1f2f6;
+  background-color: var(--container-bg-color);
 }
 
 .third_container {
@@ -28,6 +28,7 @@
   text-align: center;
   padding: 5px 20px 0px 20px;
   border-radius: 15px;
+  color: var(--fg-white-color);
 }
 
 .just_number {
@@ -35,8 +36,9 @@
 }
 
 .inputContainer {
-  color: #2f3640;
-  background-color: #ffffff;
+  color: var(--fg-white-color);
+
+  background-color: var(--main-bg-color);
   width: 310px;
   height: 40px;
   border-radius: 10px;
@@ -45,12 +47,13 @@
 
 .search,
 .search:focus {
+  color: var(--fg-white-color);
   margin: 0px;
   border: none;
   width: 280px;
   height: 36px;
   font-size: 1.4rem;
-  background-color: #ffffff;
+  background-color: var(--main-bg-color);
   border-radius: 10px;
   outline: none;
   text-indent: 5px;
@@ -62,19 +65,19 @@
   font-size: 1.4rem;
   margin-top: 12px;
   margin-left: 5px;
-  text-shadow: 0px 0px 10px rgb(180, 180, 180);
+  text-shadow: 0px 0px 5px rgb(180, 180, 180);
 }
 
 .filter {
-  color: #2f3640;
+  color: var(--fg-white-color);
   width: 80px;
   padding: 10px 0px;
   text-align: center;
   font-size: 1.3rem;
   transition: 250ms;
   font-weight: 550;
-  background-color: #ffffff;
-  border-right: 2px solid #f1f2f6;
+  background-color: var(--lighter-bg-color);
+  border-right: 2px solid var(--container-bg-color);
 }
 
 .secondContainer_filter {
@@ -86,19 +89,19 @@
   padding: 15px 20px 15px 20px;
   border-radius: 15px;
   text-align: justify;
-  background-color: #f1f2f6;
+  background-color: var(--container-bg-color);
 }
 
 .main_filter {
-  color: #2f3640;
+  color: var(--fg-white-color);
   width: 80px;
   padding: 10px 0px;
   text-align: center;
   font-size: 1.3rem;
   transition: 250ms;
   font-weight: 550;
-  background-color: #ffffff;
-  border-right: 2px solid #f1f2f6;
+  background-color: var(--lighter-bg-color);
+  border-right: 2px solid var(--container-bg-color);
 }
 
 .secondContainer span:first-child {
@@ -126,8 +129,9 @@
   text-align: center;
   font-size: 1.3rem;
   transition: 250ms;
-  font-weight: bold;
+  font-weight: 550;
   background-color: #40407a;
+  border-right: 2px solid var(--container-bg-color);
 }
 
 .main_filter_selected {
@@ -137,8 +141,9 @@
   text-align: center;
   font-size: 1.3rem;
   transition: 250ms;
-  font-weight: bold;
+  font-weight: 550;
   background-color: #40407a;
+  border-right: 2px solid var(--container-bg-color);
 }
 
 .filter:hover,
@@ -165,11 +170,13 @@
     margin-left: -20px;
   }
 
-  .search{
+  .search {
     font-size: 1.1rem;
   }
   .main_filter_selected,
-  .main_filter, .filter, .filter_selected {
+  .main_filter,
+  .filter,
+  .filter_selected {
     width: 58px;
     font-size: 1.1rem;
   }

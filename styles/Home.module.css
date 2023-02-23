@@ -18,7 +18,7 @@
   top: 80vh;
   left: calc(100% - 55px);
   padding: 13px 14px 13px 14px;
-  color: #05103a;
+  color: var(--fg-white-color); 
   background-color:  ;
   border-radius: 50%;
   position: fixed;
@@ -28,6 +28,9 @@
   z-index: 10000;
   animation: shareLink 5s infinite;
   border: 1px dotted #5b5b5b;
+}
+.top_arrow:hover{
+  cursor: pointer;
 }
 
 @keyframes shareLink {

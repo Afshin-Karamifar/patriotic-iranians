@@ -2,25 +2,25 @@
   height: fit-content;
   padding: 15px 10px 15px 20px;
   margin-top: 4px;
-  background-color: #f1f2f6;
-  color: #2f3640;
   border-radius: 15px;
+  color: var(--fg-white-color);
+  background-color: var(--container-bg-color);
 }
 
 .report_title {
   width: fit-content;
-  color: #05103a;
+  color: var(--fg-report-title-color);
   font-size: 1.4rem;
   font-weight: 600;
   text-transform: uppercase;
   margin: 2px 0px 10px 0px;
   padding-bottom: 5px;
-  border-bottom: 1.5px dashed #05103a;
+  border-bottom: 1.5px dashed var(--fg-report-second-title-color);
 }
 
 .report_title_date {
   width: fit-content;
-  color: #05103a;
+  color: var(--fg-report-second-title-color);
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -35,14 +35,14 @@
 .report {
   font-size: 1.3rem;
   min-width: 310px;
-  color: #2f3640;
-  border-left: 2px solid #0a3d62;
+  color: var(--fg-white-color);
+  border-left: 2px solid var(--report-left-border-color);
   padding: 0px 4px;
   margin: 5px 0px 4px 1px;
 }
 
 .note {
-  background-color: #fff6edce;
+  background-color: var(--note-bg-color);
   margin: 0px 10px 0px 1px;
   font-size: 1.2rem;
   border-left: 3px solid #f0932b;
